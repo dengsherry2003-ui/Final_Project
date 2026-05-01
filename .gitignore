@@ -1,6 +1,8 @@
 # Project-specific exclusions
 Code/Trash/
 Code/generate_loyalty_trend.py
+Code/CE_Speech_analysis.ipynb
+Code/Press_Release_analysis.ipynb
 Prompt/
 Data/Data_Processed/polymarket_events_politics_election_top100_volume.csv
 Data/Data_Processed/polymarket_events_politics_election.csv
