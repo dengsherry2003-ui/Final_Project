@@ -1,0 +1,9 @@
+# Project-specific exclusions
+Code/Trash/
+Code/generate_loyalty_trend.py
+Prompt/
+Data/Data_Processed/polymarket_events_politics_election_top100_volume.csv
+Data/Data_Processed/polymarket_events_politics_election.csv
+Data/Data_Processed/polymarket_events_politics_top100_volume.csv
+Data/Data_Processed/polymarket_events_politics.csv
+Data/Data_Raw/polymarket_events.csv

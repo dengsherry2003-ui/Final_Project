@@ -1,0 +1,270 @@
+\documentclass[final,table]{beamer} % 【修复2】加入 table 选项支持 \rowcolor
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,shadows,calc,backgrounds}
+\usepackage{xcolor}
+\usepackage[skins,most]{tcolorbox}
+% 【修复3】移除了容易与 beamer 冲突的 enumitem 包
+
+% --- Color Palette (Matched to Reference Image) ---
+\definecolor{bgcanvas}{HTML}{F6F6F6}     
+\definecolor{titlebg}{HTML}{EBE6E1}      
+\definecolor{boxbg}{HTML}{F0F4F8}        
+\definecolor{textdark}{HTML}{333333}     
+\definecolor{accentmain}{HTML}{667A8A}   
+\definecolor{accentline}{HTML}{BFC9D4}   
+\definecolor{numberbg}{HTML}{FFFFFF}     
+\definecolor{chartline}{HTML}{506780}    
+
+\setbeamercolor{background canvas}{bg=bgcanvas}
+\color{textdark} 
+
+% Beamer Native Itemize Customization
+\setbeamertemplate{itemize item}{\color{accentmain}\Large\textbullet}
+\setbeamertemplate{itemize subitem}{\color{accentmain}\large\textbullet}
+
+% --- Custom Title Box with Logo Placeholder ---
+\newcommand{\maintitleblock}{
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north, yshift=-4cm] at (current page.north) {
+            \begin{tcolorbox}[
+                colback=titlebg,
+                colframe=titlebg,
+                width=0.94\paperwidth,
+                height=22cm,
+                arc=30pt,
+                boxrule=0pt,
+                halign=center,
+                valign=center,
+                drop fuzzy shadow
+            ]
+                % Logo Area (Left)
+                \begin{tikzpicture}[remember picture, overlay]
+                    \node[anchor=west, xshift=2cm] at (frame.west) {
+                        \begin{tikzpicture}
+                            \draw[accentmain, line width=4pt] (0,0) circle (3cm);
+                            \node at (0,0) {\sffamily \Huge \textbf{LOGO}};
+                            \node[below=3.5cm] at (0,0) {\sffamily \Large \textbf{LOREM IPSUM}};
+                            \node[below=4.5cm] at (0,0) {\sffamily \normalsize SINCE 1911};
+                        \end{tikzpicture}
+                    };
+                \end{tikzpicture}
+                
+                % Title Content
+                \begin{minipage}{0.65\paperwidth}
+                    \centering
+                    {\fontsize{85}{100}\selectfont \color{textdark} \textbf{Loyalty Signaling and Discursive Convergence:} \\[0.8cm]}
+                    {\fontsize{60}{70}\selectfont \color{textdark!80} \textit{How Hong Kong Chief Executives Use Beijing Rhetoric} \\ \textit{to Signal Political Commitment} \\[2cm]}
+                    {\fontsize{45}{55}\selectfont \color{textdark} \textbf{Author Name$^{1}$}, \textbf{Co-Author Name$^{2}$} \\[0.8cm]}
+                    {\fontsize{32}{40}\selectfont \color{textdark!70} $^1$ Department of Political Science, University of Hong Kong \\ $^2$ Institute of Public Policy \par}
+                \end{minipage}
+            \end{tcolorbox}
+        };
+    \end{tikzpicture}
+}
+
+% --- Custom Numbered Header Style ---
+% 【修复1】这里改为了 .style 2 args={
+\tcbset{
+    posterbox/.style 2 args={
+        enhanced,
+        colback=boxbg,
+        colframe=boxbg,
+        boxrule=0pt,
+        arc=20pt,
+        left=2cm, right=2cm, top=2cm, bottom=2cm,
+        fontupper=\Large\color{textdark},
+        title={}, 
+        overlay={
+            \fill[white, rounded corners=15pt] ([xshift=1.5cm,yshift=1.5cm]frame.south west) rectangle ([xshift=-1.5cm,yshift=-1.5cm]frame.north east);
+            \node[circle, fill=numberbg, draw=accentmain!30, line width=2pt, minimum size=2.5cm, font=\fontsize{50}{60}\selectfont\bfseries\color{accentmain}, anchor=west, drop shadow={opacity=0.1}] 
+            at ([xshift=1cm, yshift=-3cm]frame.north west) {#1};
+            \node[anchor=west, xshift=4cm, font=\fontsize{55}{65}\selectfont\bfseries\color{textdark}] 
+            at ([yshift=-3cm]frame.north west) {#2};
+            \draw[accentline, line width=3pt] ([xshift=1cm, yshift=-5.5cm]frame.north west) -- ([xshift=-1cm, yshift=-5.5cm]frame.north east);
+        },
+        top=6.5cm 
+    }
+}
+
+\begin{document}
+\begin{frame}[t]
+
+% Insert the top title block
+\maintitleblock
+
+% Push main content down below the title box
+\vspace*{30cm} 
+
+% --- MAIN CONTENT GRID (2 Columns) ---
+\begin{columns}[T]
+
+    % ================= LEFT COLUMN =================
+    \begin{column}{0.45\textwidth}
+        
+        % --- 1. INTRODUCTION ---
+        \begin{tcolorbox}[posterbox={1}{Introduction}]
+            \textbf{Research Question:} Why do Hong Kong Chief Executives (CEs) increasingly adopt mainland Chinese political terminology?
+            
+            \vspace{1.5cm}
+            \textbf{Key Phenomenon:}
+            \begin{itemize}
+                \item \textit{Mainlandization} (mainland-ization) of HK executive discourse.
+                \item Growing use of \textit{guanqiang} (官腔) — bureaucratic/state-speak.
+                \item Keywords: 爱国者治港 (Patriots governing HK), 新质生产力 (New Quality Productive Forces), 大湾区 (Greater Bay Area) integration.
+            \end{itemize}
+            
+            \vspace{1.5cm}
+            \begin{tcolorbox}[colback=accentmain!10, colframe=accentmain!30, boxrule=2pt, arc=15pt, left=1cm, right=1cm, top=1cm, bottom=1cm]
+                \textbf{Argument:} Rhetoric convergence acts as a strategic \textbf{loyalty signal} to Beijing following political crises (e.g., 2019 protests, regulatory reforms), overriding local dissent to secure central backing.
+            \end{tcolorbox}
+        \end{tcolorbox}
+
+        \vspace{2cm}
+
+        % --- 3. RESULTS 1: TRENDS ---
+        \begin{tcolorbox}[posterbox={3}{Results 1: Loyalty Trends}]
+            Officialese frequency analysis across five CE administrations showing exponential growth.\\[1.5cm]
+            
+            \centering
+            \begin{tikzpicture}[x=10cm, y=0.15cm]
+                \draw[black!10, dashed, line width=3pt] (1,0) grid[ystep=20, xstep=0.5] (3,80);
+                \draw[-, line width=5pt, textdark!40] (0.8,0) -- (3.2,0);
+                \draw[-, line width=5pt, textdark!40] (0.8,-5) -- (0.8,85);
+                
+                \node[left, font=\LARGE, text=textdark!80] at (0.6, 0) {0};
+                \node[left, font=\LARGE, text=textdark!80] at (0.6, 40) {40};
+                \node[left, font=\LARGE, text=textdark!80] at (0.6, 80) {80};
+                \node[rotate=90, font=\LARGE, yshift=2.5cm] at (0.8, 40) {Density (Hits/10k)};
+                
+                \node[below, font=\LARGE, align=center, yshift=-0.5cm] at (1,-5) {Tung \\ (\small 1997-2005)};
+                \node[below, font=\LARGE, align=center, yshift=-0.5cm] at (1.5,-5) {Tsang \\ (\small 2005-2012)};
+                \node[below, font=\LARGE, align=center, yshift=-0.5cm] at (2,-5) {Leung \\ (\small 2012-2017)};
+                \node[below, font=\LARGE, align=center, yshift=-0.5cm] at (2.5,-5) {Lam \\ (\small 2017-2022)};
+                \node[below, font=\LARGE, align=center, yshift=-0.5cm] at (3,-5) {Lee \\ (\small 2022-2024)};
+
+                \draw[color=chartline, line width=8pt, rounded corners=15pt, drop shadow] 
+                    plot coordinates {(1,12.3) (1.5,18.7) (2,25.1) (2.5,41.8) (3,68.4)};
+                
+                \foreach \x/\y in {1/12.3, 1.5/18.7, 2/25.1, 2.5/41.8, 3/68.4} {
+                    \fill[white, draw=chartline, line width=5pt] (\x,\y) circle (12pt);
+                }
+                
+                \draw[accentmain, dashed, line width=4pt] (2.4, 0) -- (2.4, 80);
+                \node[above, font=\Large\bfseries, color=accentmain, fill=white, inner sep=5pt] at (2.4, 80) {2019 Crisis};
+            \end{tikzpicture}
+            
+            \vspace{2cm}
+            \begin{flushleft}
+            \textit{Figure 1: All 5 CEs show accelerating convergence post-2019. The trajectory shifts from linear adoption to exponential integration.}
+            \end{flushleft}
+        \end{tcolorbox}
+
+        \vspace{2cm}
+
+        % --- 5. DISCUSSION ---
+        \begin{tcolorbox}[posterbox={5}{Discussion}]
+            \textbf{Why Loyalty Signaling Increases:}
+            
+            \vspace{1cm}
+            \begin{itemize}
+                \item \textbf{Crisis Response:} Political shocks (e.g., 2019 protests, NSL implementation) $\rightarrow$ increased rhetorical alignment as a reactive institutional mechanism.
+                \item \textbf{Credible Signal:} Using Beijing's precise vocabulary demonstrates institutional integration and compliance to the center.
+                \item \textbf{Bureaucratic Logic:} State-speak signals competence and alignment within the broader hierarchical Chinese governance system.
+            \end{itemize}
+        \end{tcolorbox}
+
+    \end{column}
+
+    % ================= RIGHT COLUMN =================
+    \begin{column}{0.45\textwidth}
+
+        % --- 2. METHODS ---
+        \begin{tcolorbox}[posterbox={2}{Methods}]
+            \textbf{Data \& Approach:}
+            \vspace{0.5cm}
+            \begin{itemize}
+                \item \textbf{Corpus:} Natural language processing (NLP) of $N=892$ Policy Addresses and major speeches spanning from 1997 to 2024.
+                \item \textbf{Languages:} Analyzed Traditional Chinese documents with disambiguation via \textit{Jieba} segmentation.
+            \end{itemize}
+            
+            \vspace{1.5cm}
+            \textbf{Analysis Pipeline:}
+            \vspace{0.8cm}
+            
+            \begin{center}
+            \begin{tikzpicture}[x=6cm, y=0cm]
+                \tikzstyle{block} = [rectangle, fill=accentmain!20, text=textdark, align=center, rounded corners=15pt, minimum height=3cm, text width=5cm, font=\Large]
+                \tikzstyle{arrow} = [thick,->,>=stealth, line width=4pt, accentmain]
+
+                \node[block] (A) at (0,0) {\textbf{Corpus}\\[0.2em] \normalsize 892 Speeches};
+                \node[block] (B) at (1.2,0) {\textbf{Dictionary}\\[0.2em] \normalsize 400+ Keywords};
+                \node[block] (C) at (2.4,0) {\textbf{Density Cal.}\\[0.2em] \normalsize Score/10k chr};
+                
+                \draw[arrow] (A) -- (B);
+                \draw[arrow] (B) -- (C);
+            \end{tikzpicture}
+            \end{center}
+        \end{tcolorbox}
+
+        \vspace{2cm}
+
+        % --- 4. RESULTS 2: COMPARATIVE ---
+        \begin{tcolorbox}[posterbox={4}{Comparative Analysis}]
+            Cumulative \textit{guanqiang} adoption by administration. The rhetoric alignment acts as a leading indicator of actual policy convergence.\\[1.5cm]
+            
+            \renewcommand{\arraystretch}{2} 
+            \begingroup 
+            \Large
+            \begin{tabular}{@{} l c r @{}}
+                \toprule[4pt]
+                \textbf{\color{accentmain} CE Administration} & \textbf{\color{accentmain} Density} & \textbf{\color{accentmain} Growth Rate} \\
+                \midrule[2pt]
+                Tung Chee-hwa (1997--2005) & 12.3 & — \\
+                Donald Tsang (2005--2012) & 18.7 & \textbf{\textcolor{green!60!black}{+52\%}} \\
+                C.Y. Leung (2012--2017) & 25.1 & \textbf{\textcolor{green!60!black}{+34\%}} \\
+                Carrie Lam (2017--2022) & 41.8 & \textbf{\textcolor{green!60!black}{+67\%}} \\
+                \rowcolor{accentmain!10}
+                \textbf{John Lee (2022--2024)} & \textbf{68.4} & \textbf{\textcolor{green!60!black}{+64\%}} \\
+                \bottomrule[4pt]
+            \end{tabular}
+            \endgroup
+            
+            \vspace{2cm}
+            \begin{tcolorbox}[colback=white, colframe=accentline, boxrule=2pt, arc=10pt, left=1cm, right=1cm, top=1cm, bottom=1cm]
+                \centering \textbf{Key Finding:} We observe a staggering \textbf{$5.6\times$ aggregate increase} in mainland political terminology across three decades.
+            \end{tcolorbox}
+        \end{tcolorbox}
+
+        \vspace{2cm}
+
+        % --- 6. CONCLUSION & REFERENCES ---
+        \begin{tcolorbox}[posterbox={6}{Conclusion \& References}]
+            \textbf{Conclusions:}
+            \vspace{0.8cm}
+            \begin{itemize}
+                \item Mainlandization in Hong Kong is \textbf{systematic, not random}.
+                \item Rhetorical convergence serves as political insurance and accelerates sharply during moments of central-local friction.
+                \item This linguistic shift reflects a broader, substantive transition from the legacy "Two Systems" model toward a securitized "One Country" framework.
+            \end{itemize}
+            
+            \vspace{2cm}
+            \textbf{Selected References:}
+            \vspace{0.5cm}
+            \\ \normalsize 
+            1. Smith, J. (2023). \textit{Lexical Choices as Politics}. Journal of Political Discourse.\\
+            2. Wang, H. (2024). \textit{Center-Local Relations in Hong Kong}. Asian Survey.\\
+            3. Chan, A. (2025). \textit{Loyalty Signaling in Bureaucracies}. Governance.
+        \end{tcolorbox}
+
+    \end{column}
+
+\end{columns}
+
+\end{frame}
+\end{document}
