@@ -26,12 +26,35 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[9pt,a4paper,twocolumn,twoside]{rho-class/rho}
-\usepackage[english]{babel}
 
 \usepackage{xurl} % 放在导言区
+\usepackage{siunitx} % 处理表格中的S列对齐
+\usepackage{rho-class/rhoenvs}
+\usepackage{rho-class/rhobabel}
 \urlstyle{tt}      % 设置为等宽字体
+
+
 % 重新定义你的命令
-\newcommand{\inlinecode}[1]{\url{#1}}
+\providecommand{\inlinecode}[1]{#1}
+\renewcommand{\inlinecode}[1]{%
+    \begingroup
+    \setlength{\fboxsep}{1.5pt}%
+    \colorbox{gray!15}{\texttt{\detokenize{#1}}}%
+    \endgroup
+}
+
+% CJK support for Chinese text in the document
+%\usepackage{ctex}
+
+% Fallbacks for older TeX kernels that lack tagging commands
+\providecommand\taggingSocket[1]{}
+\providecommand\UseTaggingSocket[1]{}
+\providecommand\SuspendTagging[1]{}
+\providecommand\ResumeTagging[1]{}
+
+% Fallbacks if language labels are not defined
+\providecommand{\andlanguage}{ and }
+\providecommand{\keywordname}{\textbf{Keywords: }}
 
 
 %% Spanish babel recomendation
@@ -60,18 +83,18 @@
 
 %----------------------------------------------------------
 
-\dates{This manuscript was compile on April 30, 2026}
+\dates{This manuscript was compile on \today.}
 
 %----------------------------------------------------------
 % Corresponding author-, Document- information
 %----------------------------------------------------------
 
-\corres{\textsuperscript{\textasteriskcentered}Corresponding author: \href{mailto:author.one@institute.org}{author.one@institute.org} (A. One).}
-\corres{\textsuperscript{\textdagger}These authors contributed equally to this work.}
+%\corres{\textsuperscript{\textasteriskcentered}Corresponding author: \href{mailto:author.one@institute.org}{author.one@institute.org} (A. One).}
+%\corres{\textsuperscript{\textdagger}These authors contributed equally to this work.}
 
 %----------------------------------------------------------
 
-\docinfo{This document class was prepared on Overleaf and compiled with pdf\LaTeX{}. No errors were found during the compilation process. Rho-class supports external editors, though additional setup may be required.} 
+%\docinfo{This document class was prepared on Overleaf and compiled with pdf\LaTeX{}. No errors were found during the compilation process. Rho-class supports external editors, though additional setup may be required.} 
 
 %----------------------------------------------------------
 
@@ -116,16 +139,9 @@
 
     This class includes the following files in the rho-class folder:
 	
-	\begin{itemize}
-		\item \inlinecode{rho.cls} — The main class file.
-		\item \inlinecode{rhoenvs.sty} — A package containing custom environments.
-		\item \inlinecode{rhobabel.sty} — A support package for multilingual.
-		\item \inlinecode{README.md} — With essential information.
-	\end{itemize}
-
     Additionally, this template includes a sample document \inlinecode{main.tex}, a bibliography file \inlinecode{rho.bib}, as well as figures, tables and code examples to help you get started quickly.
 
-    \subsection{License}
+    \subsection{Literature Review}
 
         This template was developed by Guillermo Jimenez, licensed under Creative Commons CC BY 4.0. You are free to adapt, share, and distribute it, provided that proper credit is given to the original author.
 
@@ -139,23 +155,29 @@
         \begin{itemize}
             \item CE's speeches: \inlinecode{Data/Data_Raw/Speeches_and_Articles}
             \item Government press releases: \inlinecode{Data/Data_Raw/Press_Release}
-            \item Central leaders' HK-related speeches: \inlinecode{Data/Data_Raw/Central/Liason_Office/State_Leader}
+            \item Central leaders' HK-related speeches\footnote{Data regarding central leaders' speeches about Hong Kong was accessed from the Liaison Office 
+            of the Central People's Government (LOCPG) website: \url{http://www.locpg.gov.cn/zxzx/zysy.htm}. But the dataset is restrained to the period from 
+            2008 to 2026.}: \inlinecode{Data/Data_Raw/Central/Liason_Office/State_Leader}
         \end{itemize}
         
-        The primary source of data consists of Chief Executive (CE) speeches and government press releases spanning 
-        from 1997 to 2026.\footnote{Press release (Traditional Chinese): \url{https://www.ceo.gov.hk/tc/press.html}; 
-        CE speeches: \url{https://www.ceo.gov.hk/tc/speeches.html}; Archive of past CE's speeches and press releases: 
-        \url{https://www.ceo.gov.hk/tc/links.html}}
+        \noindent The primary dataset consists of a bilingual parallel corpus containing both Traditional and Simplified Chinese oﬀicial press releases and CE speeches and articles, with Traditional 
+        Chinese materials used for analysis. The data spans five administrative terms (July 1997 to March 2026), capturing oﬀicial discourse from Tung Chee-hwa, Donald Tsang, Leung Chun-ying, Carrie 
+        Lam, and John Lee. \footnote{Press release for current administration (Traditional Chinese) can be found at: \url{https://www.ceo.gov.hk/tc/press.html}; 
+        CE speeches: \url{https://www.ceo.gov.hk/tc/speeches.html}; Archive of past CE's speeches and press releases:\url{https://www.ceo.gov.hk/tc/links.html}}
         
-        Data regarding central leaders' speeches about Hong Kong was accessed from the Liaison Office of the Central 
-        People's Government (LOCPG) website: \url{http://www.locpg.gov.cn/zxzx/zysy.htm}。但资料只包含习近平主席在任和
-        候任期间的相关国家领导人涉港言论。
 
 
 
-    \subsection{Data Cleaning & Wrangling}
+    \subsection{Data Cleaning \& Wrangling}
+        
+        The initial data cleaning phase involved adjusting character encoding for the accurate rendering of Traditional Chinese characters, handling missing values, 
+        and stripping HTML tags, punctuation, and extraneous whitespace. A strict length threshold was enforced, excluding any documents with fewer than 2,000 characters. 
+        Additionally, temporal metadata was standardized by extracting publication years via regular expressions and formatting dates to DD-MM-YYYY, restricting the 
+        analytical window strictly to the 1997–2026 period.
+        
+        \noindent Data wrangling procedures include transforming the unstructured corpus into a format suitable for quantitative analysis, and conducting text normalization, 
+        stop word removal to prepare the text for subsequent processing.
 
-        The abstract and keywords are declared in the preamble of the document with \inlinecode{\begin{abstract}...\end{abstract}} environment alongside the dedicated \inlinecode{\keywords{}} command to allow the class file to automatically handle their formatting and positioning during the title creation process.
 
     \subsection{Keyword Detection}
 
@@ -167,17 +189,67 @@
 
 \section{Results and Findings}
 
-    Rho-class provides shorthand commands for cross-referencing figures, tables, code listings, and equations. To customize the label format, edit the \inlinecode{rhobabel.sty} file. Label translations for Spanish are handled automatically.
-
-        \begin{itemize}
-            \item \inlinecode{\figref{}} — Uses the label style defined by \inlinecode{\figlabel}.
-            \item \inlinecode{\figsref{}} — Uses the label style defined by \inlinecode{\figslabel}.
-            \item \inlinecode{\tabref{}} — Uses the label style defined by \inlinecode{\tablabel}.
-            \item \inlinecode{\coderef{}}  — Uses the label style defined by \inlinecode{\captionlabelcode}.
-            \item \inlinecode{\equref{}} — Uses the label style defined by \inlinecode{\eqlabel}.
-        \end{itemize}
+    The density of loyalty-signaling keywords in Chief Executives’ speeches varied significantly across administrations (ANOVA result: F(4,2692) = 558.02, p < .001). Tung established a moderate 
+    baseline for loyalty rhetoric, which remained relatively stable throughout his tenure, marked by a slight uptick preceding his resignation. Following Tung, loyalty signaling plummeted. For 
+    both Tsang and Leung, the median keyword density dropped to zero, indicating that in at least half of their analyzed speeches, loyalty keywords did not appear a single time. Although Figure 1 
+    shows a visual upward trend in signaling at the end of Leung’s term, statistical analysis demonstrates no significant difference in the overall signaling density between Tsang and Leung.
         
-    These commands generate fully hyperlinked references, both the label and the number, ensuring navigation to the referenced element when clicked in the PDF.
+    A dramatic escalation in loyalty signaling occurred during Carrie Lam’s administration. The frequency climbed steadily from 2017, reaching its peak in 2020. Her mean signaling density was 
+    more than double that of Tung's and nearly five times higher than Leung’s. This rhetorical shift reached its absolute triumph under John Lee’s administration. Not only is his keyword density 
+    the highest, his lowest Coefficient of Variation (CV) further suggests that his high volume of loyalty signaling is not isolated to specific events; it is a standardized, highly consistent, 
+    and baked-in component of his everyday executive discourse.
+
+    
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=1\columnwidth]{figures/speeches_yearly_trend.png}
+    	\caption{Density of loyalty-signaling keywords across administrations.}
+    	\label{fig:keyword_density}
+    \end{figure}
+
+    \begin{table}[ht]
+        \centering
+        \caption{Statistical Summary and Pairwise Comparison of Loyalty Keyword Density in CE Speeches}
+        \label{tab:ce_stats}
+        \small
+        \setlength{\tabcolsep}{5pt} % 列间距
+        \begin{tabular}{@{} l r S[table-format=3.2] S[table-format=3.2] S[table-format=1.2] c c c c @{}}
+        \toprule
+        & & \multicolumn{3}{c}{Descriptive Statistics} & \multicolumn{4}{c}{Post-hoc Comparison ($p$-adj)} \\
+        \cmidrule(lr){3-5} \cmidrule(lr){6-9}
+        CE & {$n$} & {Mean} & {Median} & {CV} & {Tung} & {Tsang} & {Leung} & {Lam} \\
+        \midrule
+        Tung & 497 & 61.15  & 50.98  & 0.84 & ---     & ---  & ---  & --- \\
+        Tsang  & 396 & 16.20  & 0.00   & 2.51 & ***     & ---  & ---  & --- \\
+        Leung      & 451 & 29.41  & 0.00   & 1.74 & ***     & 0.20 & ---  & --- \\
+        Lam    & 646 & 139.93 & 112.40 & 0.76 & ***     & ***  & ***  & --- \\
+        Lee      & 707 & 228.80 & 211.60 & 0.56 & ***     & ***  & ***  & *** \\
+        \bottomrule
+        \addlinespace
+        \multicolumn{9}{l}{\textit{Note.} Overall ANOVA: $F(4, 2692) = 558.02, p < .001$.} \\
+        \multicolumn{9}{l}{*** $p < .001$; ** $p < .01$; * $p < .05$.} \\
+        \end{tabular}
+    \end{table}
+
+    Chronologically, the year of 2015 serves as a critical inflection point, representing the immediate rhetorical response to the 2014 Umbrella Movement. This shift was preceded by the State 
+    Council’s June 2014 White Paper, which systemically introduced the doctrine of "Comprehensive Jurisdiction" for the first time.\footnote {See \url{https://www.hmo.gov.cn/xwzx/zwyw/202312/t20231208_38591.html}
+    {This document} signaled Beijing’s dissatisfaction with the local administration’s perceived inability to manage the precursors to "Occupy Central," emphasizing that Hong Kong’s autonomy is a delegated 
+    power rather than an inherent right.} This trajectory of intensified signaling reached its peak in 2020, following the Anti-Extradition Law Amendment Bill Movement . While the promulgation of the National 
+    Security Law (NSL) in 2020 was followed by a temporary dip in signaling density, the intensity subsequently surged to an all-time high during John Lee’s administration. These patterns strongly support the 
+    conclusion that loyalty signaling in the HKSAR is most acute during periods of peak political uncertainty and serves as a reparative mechanism to restore central-local confidence.
+
+    While the overall trend for "loyalty signaling" shows a statistically significant increase during the tenures of Carrie Lam and John Lee, this pattern is not uniform across all categories. First of 
+    all, there is no rhetorical loyalty signaling throughout all the periods. Secondly, ideological loyalty has constantly remained the most dominant category in terms of absolute volume, reaching a density of 
+    120.4 per 10,000 characters in Lee’s administration. But it shall be noted that Tung Chee-hwa also exhibited a high propensity for ideological signaling; as the first Chief Executive, he had to frequently 
+    articulate the relationship between the HKSAR and the mainland’s socialist system. Thirdly, none of the five CEs demonstrated a significant enthusiasm for "personal loyalty" signaling, indicating that 
+    political alignment in the HKSAR is projected as an institutional or systemic commitment rather than an individual allegiance. 
+
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=1\columnwidth]{figures/heatmap_loyalty_sequential.pdf}
+    	\caption{Density of loyalty-signaling keywords by category across administrations.}
+    	\label{fig:category_trend}
+    \end{figure}
 
 \section{Figures}
 		
@@ -316,11 +388,11 @@
 		
 		In \href{https://es.overleaf.com/}{Overleaf}, this package is easier to use since it does not require any additional installations or modifications — just add the code as shown in the example. \coderef{lst:example} shows a Python example.
 		
-		\begin{code}
-			\inputminted{python}{example.py}
-            \caption{Python code example with minted.}
-			\label{lst:example}
-		\end{code}
+        \begin{code}
+        \lstinputlisting[language=python]{example.py}
+                    \caption{Python code example with listings.}
+        \label{lst:example}
+        \end{code}
 		
 		You can customize its design changing \inlinecode{\usemintedstyle} command. The different styles offered by the \href{https://ctan.org/pkg/minted}{minted package} can be preview through this link — \url{https://pygments.org/styles/}.
 
