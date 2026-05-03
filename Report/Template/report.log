@@ -1,10 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  3 MAY 2026 07:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  3 MAY 2026 07:55
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**"g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex"
-(g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex
+**report.tex
+(./report.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (./rho-class/rho.cls
@@ -2505,4 +2504,181 @@ LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
-(microtype)             See th
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 18.0pt on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2scr.fd
+File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2ex.fd
+File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2frak.fd
+File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2bb.fd
+File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2cal.fd
+File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2sf.fd
+File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 125.
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2tt.fd
+File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitions
+) (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 7.80002pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 7.5pt on input line 125.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 125.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 125.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 125.
+
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 5.24997pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 8.5pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 8.5pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 7.8pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 7.8pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 7.8pt on input line 125.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 130.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 130.
+Package lettrine.sty Info: Targeted height = 15.576pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.522pt ({\fontsize {27}{24}\color {rhocolor}\bfseries {L}});
+(lettrine.sty)             reported on input line 132.
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.134     \hl
+             {insert words here}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.139         \hl
+                 {insert words here}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 5.60002pt on input line 149.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMono' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+! Undefined control sequence.
+\hl ->\ERROR 
+             
+l.163         \hl
+                 {insert words here}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 7.20003pt on input line 174.
+Missing character: There is no ^^9d (U+009D) in font [lmroman9-regular]:mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 194.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 194.
+[1
+
+
+]
+File: figures/speeches_yearly_trend.png Graphic file (type bmp)
+<figures/speeches_yearly_trend.png>
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 245.
+File: figures/heatmap_loyalty_sequential.pdf Graphic file (type pdf)
+<use figures/heatmap_loyalty_sequential.pdf>
+ [2]
+File: figures/speeches_press_boxplot.png Graphic file (type bmp)
+<figures/speeches_press_boxplot.png>
+
+Overfull \hbox (3.224pt too wide) detected at line 295
+ \TU/FiraSans(0)/m/n/8 -
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 327.
+(c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
+)
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 349.
+
+
+LaTeX Warning: Empty bibliography on input line 358.
+
+[3] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./report.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.25pt have occurred.
+
+Package logreq Info: Writing requests to 'report.run.xml'.
+\openout1 = `report.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 54561 strings out of 470015
+ 1164664 string characters out of 5473252
+ 2051866 words of memory out of 5000000
+ 82424 multiletter control sequences out of 15000+600000
+ 674945 words of font info for 232 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 137i,12n,143p,1211b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on report.pdf (3 pages).
