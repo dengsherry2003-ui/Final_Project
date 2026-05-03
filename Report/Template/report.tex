@@ -44,7 +44,10 @@
 }
 
 % CJK support for Chinese text in the document
-%\usepackage{ctex}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun} % 或者其他中文字体
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
 
 % Fallbacks for older TeX kernels that lack tagging commands
 \providecommand\taggingSocket[1]{}
@@ -65,7 +68,7 @@
 %----------------------------------------------------------
 
 \doctype{POLI 3148 Final Project Report}
-\title{Loyalty Signalling in Hong Kong: A Textual Analysis of Political Discourse from 1997 to 2026}
+\title{Loyalty Signaling in Hong Kong: A Textual Analysis of Political Discourse from 1997 to 2026}
 
 %----------------------------------------------------------
 % Authors, Affiliations and dates
@@ -109,7 +112,14 @@
 %----------------------------------------------------------
 
 \begin{abstract}
-    This paper investigates the evolution of “loyalty signaling“ by Hong Kong Chief Executives (CEs) toward the central government. While the definition of “loyalty” remains conceptually fluid and vague in Chinese politics, we propose a six-dimensional framework to categorize how political alignment is communicated. And the authors quantify the frequency of loyalty signaling by CEs through two proxies: (i) loyalty keywords density in speeches and press releases, and (ii) the semantic similarity between the speeches of CEs and central leaders. By analyzing the temporal trend in loyalty signaling from 1997 to 2026, this paper reveals a distinct cyclical pattern: loyalty signaling intensifies following periods of socio-political friction or ”trust crises” between Hong Kong and the Central Government. The results suggest that loyalty signaling is a reparative strategy directed to regain political confidence and signal political alignment during times of uncertainty. Notably, despite a surge in loyalty-signaling keyword density over the past decade, empirical evidence does not support the hypothesis of a growing convergence in political discourse between Hong Kong and Mainland China. 
+    This paper investigates the evolution of ``loyalty signaling'' by Hong Kong Chief Executives (CEs) toward the central government. While the definition of ``loyalty'' 
+    remains conceptually fluid and vague in Chinese politics, we propose a six-dimensional framework to categorize how political alignment is communicated. And the authors 
+    quantify the frequency of loyalty signaling by CEs through two proxies: (i) loyalty keywords density in speeches and press releases, and (ii) the semantic similarity 
+    between the speeches of CEs and central leaders. By analyzing the temporal trend in loyalty signaling from 1997 to 2026, this paper reveals a distinct cyclical pattern: 
+    loyalty signaling intensifies following periods of socio-political friction or ``trust crises'' between Hong Kong and the Central Government. The results suggest that 
+    loyalty signaling is a reparative strategy directed to regain political confidence and signal political alignment during times of uncertainty. Notably, despite a surge 
+    in \textit{loyalty-signaling keyword density} over the past decade, empirical evidence does not support the hypothesis of a growing convergence in political discourse between 
+    Hong Kong and Mainland China. 
     
 \end{abstract}
 
@@ -131,12 +141,12 @@
 
     \rhostart{L}oyalty signaling is blablablablablablabla blabl blablablabla ablablablablab blablablabla
 
-    \hl{insert words here}
+    {insert words here}
 	
     
     \subsection{Literature Review}
 
-        \hl{insert words here}
+        {insert words here}
 
 \section{Methodology}
 
@@ -160,7 +170,7 @@
 
     \subsection{Conceptualizing 'Loyalty Signaling'}
 
-        \hl{insert words here}
+        {insert words here}
 
     \subsection{Keyword Detection}
 
@@ -171,7 +181,7 @@
         The following computational steps are performed to transform raw text into measurable density metrics:
         
         \begin{itemize}
-            \item Temporal categorization: a regular expression function, \inlinecode{extract\_year}, was used to identify the year of publication from the file names.
+            \item Temporal categorization: a regular expression function, \inlinecode{extract_year}, was used to identify the year of publication from the file names.
             \item Keyword extraction: for every document, the script iterated through the dictionary and counted the total occurrences (Hits) of every defined keyword.
             \item Normalization and density metrics: to account for varying document lengths, the \textit{Loyalty Signaling Keyword Density} was calculated using the following formula:
             
@@ -189,7 +199,7 @@
         CE speeches and Hong Kong-related discourse from Mainland Chinese leaders are parsed using regular expressions to extract publication dates and categorized into annual corpora. 
         The raw text undergoes rigorous cleaning, including the removal of non-Chinese characters and HTML tags. The \inlinecode{jieba} library is used for precise Chinese semantic segmentation.
 
-        To isolate "loyalty signaling" from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
+        To isolate ``loyalty signaling'' from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
         transform unstructured text into high-dimensional numerical vectors. The model utilizes a \inlinecode{max_df} of 0.85 and a \inlinecode{min_df} of 2 to remove extremely common or statistically insignificant tokens.
 
         The degree of discursive convergence is quantified using Cosine Similarity.
@@ -205,13 +215,13 @@
 
     \subsection{Loyalty Signaling in CE Speeches}
 
-        The density of loyalty-signaling keywords in Chief Executives’ speeches varied significantly across administrations (ANOVA result: F(4,2692) = 558.02, p < .001). Tung established a moderate 
+        The density of loyalty-signaling keywords in Chief Executives' speeches varied significantly across administrations (ANOVA result: F(4,2692) = 558.02, p < .001). Tung established a moderate 
         baseline for loyalty rhetoric, which remained relatively stable throughout his tenure, marked by a slight uptick preceding his resignation. Following Tung, loyalty signaling plummeted. For 
         both Tsang and Leung, the median keyword density dropped to zero, indicating that in at least half of their analyzed speeches, loyalty keywords did not appear a single time. Although Figure 1 
-        shows a visual upward trend in signaling at the end of Leung’s term, statistical analysis demonstrates no significant difference in the overall signaling density between Tsang and Leung.
+        shows a visual upward trend in signaling at the end of Leung's term, statistical analysis demonstrates no significant difference in the overall signaling density between Tsang and Leung.
             
-        A dramatic escalation in loyalty signaling occurred during Carrie Lam’s administration. The frequency climbed steadily from 2017, reaching its peak in 2020. Her mean signaling density was 
-        more than double that of Tung's and nearly five times higher than Leung’s. This rhetorical shift reached its absolute triumph under John Lee’s administration. Not only is his keyword density 
+        A dramatic escalation in loyalty signaling occurred during Carrie Lam's administration. The frequency climbed steadily from 2017, reaching its peak in 2020. Her mean signaling density was 
+        more than double that of Tung's and nearly five times higher than Leung's. This rhetorical shift reached its absolute triumph under John Lee's administration. Not only is his keyword density 
         the highest, his lowest Coefficient of Variation (CV) further suggests that his high volume of loyalty signaling is not isolated to specific events; it is a standardized, highly consistent, 
         and baked-in component of his everyday executive discourse.
 
@@ -248,16 +258,16 @@
         \end{table}
 
         Chronologically, the year of 2015 serves as a critical inflection point, representing the immediate rhetorical response to the 2014 Umbrella Movement. This shift was preceded by the State 
-        Council’s June 2014 White Paper, which systemically introduced the doctrine of "Comprehensive Jurisdiction" for the first time.\footnote {See \url{https://www.hmo.gov.cn/xwzx/zwyw/202312/t20231208_38591.html}
-        {This document} signaled Beijing’s dissatisfaction with the local administration’s perceived inability to manage the precursors to "Occupy Central," emphasizing that Hong Kong’s autonomy is a delegated 
-        power rather than an inherent right.} This trajectory of intensified signaling reached its peak in 2020, following the Anti-Extradition Law Amendment Bill Movement . While the promulgation of the National 
-        Security Law (NSL) in 2020 was followed by a temporary dip in signaling density, the intensity subsequently surged to an all-time high during John Lee’s administration. These patterns strongly support the 
+        Council's June 2014 White Paper, which systemically introduced the doctrine of "Comprehensive Jurisdiction" for the first time.\footnote {See \url{https://www.hmo.gov.cn/xwzx/zwyw/202312/t20231208_38591.html}
+        {This document} signaled Beijing's dissatisfaction with the local administration's perceived inability to manage the precursors to "Occupy Central," emphasizing that Hong Kong’s autonomy is a delegated 
+        power rather than an inherent right.} This trajectory of intensified signaling reached its peak in 2020, following the Anti-Extradition Law Amendment Bill Movement. While the promulgation of the National 
+        Security Law (NSL) in 2020 was followed by a temporary dip in signaling density, the intensity subsequently surged to an all-time high during John Lee's administration. These patterns strongly support the 
         conclusion that loyalty signaling in the HKSAR is most acute during periods of peak political uncertainty and serves as a reparative mechanism to restore central-local confidence.
 
-        While the overall trend for "loyalty signaling" shows a statistically significant increase during the tenures of Carrie Lam and John Lee, this pattern is not uniform across all categories. First of 
+        While the overall trend for ``loyalty signaling'' shows a statistically significant increase during the tenures of Carrie Lam and John Lee, this pattern is not uniform across all categories. First of 
         all, there is no rhetorical loyalty signaling throughout all the periods. Secondly, ideological loyalty has constantly remained the most dominant category in terms of absolute volume, reaching a density of 
-        120.4 per 10,000 characters in Lee’s administration. But it shall be noted that Tung Chee-hwa also exhibited a high propensity for ideological signaling; as the first Chief Executive, he had to frequently 
-        articulate the relationship between the HKSAR and the mainland’s socialist system. Thirdly, none of the five CEs demonstrated a significant enthusiasm for "personal loyalty" signaling, indicating that 
+        120.4 per 10,000 characters in Lee's administration. But it shall be noted that Tung Chee-hwa also exhibited a high propensity for ideological signaling; as the first Chief Executive, he had to frequently 
+        articulate the relationship between the HKSAR and the mainland socialist system. Thirdly, none of the five CEs demonstrated a significant enthusiasm for ``personal loyalty'' signaling, indicating that 
         political alignment in the HKSAR is projected as an institutional or systemic commitment rather than an individual allegiance. 
 
         \begin{figure}[H]
@@ -304,18 +314,18 @@
         \end{table}
 
 
-        There is a notable shift in the Lee administration’s rhetoric turning into 2026. For the first time since 1997, the data reveal an inversion in the signaling medium, with significantly more loyalty 
+        There is a notable shift in the Lee administration's loyalty signaling channel turning into 2026 (See Figure \ref{fig:loyalty_signaling_gap} in Appendix B). For the first time since 1997, the data reveal an inversion in the signaling medium, with significantly more loyalty 
         being signaled through official press releases than through the Chief Executive's personal speeches. While it remains unclear whether this marks an outlier or a strategic realignment in public discourse, 
-        two hypotheses offer potential explanations for this phenomenon. The first hypothesis is that, having spent 2022–2025 establishing an undeniably high baseline of political alignment, the administration 
+        two hypotheses offer potential explanations for this phenomenon. The first hypothesis is that, having spent 2022 to 2025 establishing an undeniably high baseline of political alignment, the administration 
         may now consider that trust secured. The burden of loyalty signaling is being pushed down into the civil service machinery through the standardized, boilerplate text of daily press releases. Another 
-        hypothesis is that the administration, cautious of potential backlash from civil society and the commercial sector—where repeated loyalty signaling might shake confidence in Hong Kong’s autonomy—the 
+        hypothesis is that the administration, cautious of potential backlash from civil society and the commercial sector—where repeated loyalty signaling might shake confidence in Hong Kong's autonomy—the 
         administration may be intentionally shifting these signals into less visible bureaucratic channels. This allows the Chief Executive to reserve his highly visible public speeches for pragmatic, economically oriented messaging.
     
     \subsection{Textual Similarity}
 
-        The consistently low overall textual similarity between Chief Executive speeches and state leaders’ Hong Kong-related addresses highlights a crucial finding: loyalty signaling has not driven a wholesale assimilation into Mainland political rhetoric. This demonstrates that the recent rise in loyalty signaling has not fundamentally changed the underlying structure of Hong Kong's political discourse. Despite a higher frequency of specific political keywords, there is no empirical evidence to suggest that the CE has adopted the generalized “officialese” often characteristic of Mainland bureaucratic texts.
+        The consistently low overall textual similarity between Chief Executive speeches and state leaders' Hong Kong-related addresses highlights a crucial finding: loyalty signaling has not driven a wholesale assimilation into Mainland political rhetoric (See Figure \ref{fig:similarity_trend} in Appendix B). This demonstrates that the recent rise in loyalty signaling has not fundamentally changed the underlying structure of Hong Kong's political discourse. Despite a higher frequency of specific political keywords, there is no empirical evidence to suggest that the CE has adopted the generalized ``officialese'' often characteristic of Mainland bureaucratic texts.
         
-        Notably, contrary to the hypothesis that John Lee might heavily utilize Mainland-style bureaucratic jargon to approximate Beijing’s political discourse, it appears form the data that he employs a highly targeted, “modular” signaling strategy. Rather than structurally adopting Mainland-style rhetorical style, Lee strategically inserts specific loyalty-signaling keywords (such as “national security” and “patriots administering Hong Kong”) with high frequency and precision to establish an unambiguous political baseline. However, his overarching narrative style, daily administrative vocabulary, and linguistic structure have not converged with the Mainland's official speech system. This represents a highly pragmatic rhetorical approach: it guarantees strict political compliance while actively preserving the localized, pragmatic, and technocratic linguistic framework inherent to Hong Kong’s executive branch.
+        Notably, contrary to the hypothesis that John Lee might heavily utilize Mainland-style bureaucratic jargon to approximate Beijing's political discourse, it appears form the data that he employs a highly targeted, ``modular'' signaling strategy. Rather than structurally adopting Mainland-style rhetorical style, Lee strategically inserts specific loyalty-signaling keywords (such as ``national security'' and ``patriots administering Hong Kong'') with high frequency and precision to establish an unambiguous political baseline. However, his overarching narrative style, daily administrative vocabulary, and linguistic structure have not converged with the Mainland's official speech system. This represents a highly pragmatic rhetorical approach: it guarantees strict political compliance while actively preserving the localized, pragmatic, and technocratic linguistic framework inherent to Hong Kong's executive branch.
 
         
 
@@ -338,6 +348,130 @@
 
 
 
+
+
+
+
+
+%----------------------------------------------------------
+
+\printbibliography
+
+%----------------------------------------------------------
+
+
+
+%----------------------------------------------------------
+\cleardoublepage
+\section*{Appendix}
+\setcounter{subsection}{0}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\subsection{Loyalty Signaling Keywords}
+    
+    The keywords used to capture loyalty signaling are categorized into the following six dimensions:
+
+    \begin{description}
+        \setlength{\itemsep}{6pt}
+        \item[1. Personal Loyalty:] 習近平, 習近平主席, 習近平總書記, 國家主席習近平, 習主席, 國家主席, 總書記, 中共中央總書記, 中共中央總書記、國家主席習近平, 黨和國家領導人, 中央領導, 中央領導人, 國家領導人, 國務院總理, 總理, 國務院副總理, 副總理, 夏寶龍, 夏寶龍主任, 韓正, 韓正副總理, 丁薛祥, 丁薛祥副總理, 李強, 李克強, 胡錦濤, 胡主席, 江澤民, 江主席, 溫家寶, 朱鎔基, 李鵬, 鄧小平, 港澳辦主任, 中央有關部委, 中央相關部委.
+        \item[2. Institutional Loyalty:] 中央人民政府, 中央政府, 黨中央, 國務院, 國務院港澳事務辦公室, 港澳辦, 中央港澳工作辦公室, 中聯辦, 中央人民政府駐香港特別行政區聯絡辦公室, 中央人民政府駐香港特別行政區維護國家安全公署, 外交部, 商務部, 國家發展和改革委員會, 國家發改委, 全國人民代表大會, 全國人大, 全國人大常委會, 人大常委會, 全國政協, 港區全國人大代表, 港區全國政協委員, 全國兩會, 兩會, 全國兩會精神, 人民大會堂, 中國共產黨, 中央委員會, 中央政治局, 中共中央政治局, 中央軍委, 二十大, 中國共產黨第二十次全國代表大會, 二十大精神, 十九大, 中國共產黨第十九次全國代表大會, 十九大精神, 十八大, 中國共產黨第十八次全國代表大會, 十八大精神, 十七大, 十六大, 十五大, 二十屆三中全會, 中共二十屆三中全會, 二十屆三中全會精神, 三中全會, 三中全會精神, 四中全會, 五中全會, 六中全會, 維護國家安全委員會, 香港特別行政區維護國家安全委員會, 國安委, 駐港國家安全公署.
+        \item[3. Policy Loyalty:] 一帶一路, 一帶一路倡議, 共建一帶一路, 粵港澳大灣區, 粵港澳大灣區建設, 大灣區建設, 粵港澳大灣區發展規劃綱要, 十四五, 十四五規劃, 十四五規劃綱要, 國家十四五規劃, 十三五, 十二五, 十一五, 十五五, 五年規劃, 五年規劃綱要, 高質量發展, 新質生產力, 新發展格局, 新發展理念, 創新驅動發展, 供給側結構性改革, 共同富裕, 國內國際雙循環, 雙循環, 高水平對外開放, 高水平安全, 北部都會區, 北部都會區行動綱領, 河套深港科技創新合作區, 河套深港科技創新合作區深圳園區發展規劃, 河套合作區, 前海深港現代服務業合作區, 橫琴粵澳深度合作區, 國際創新科技中心, 愛國主義教育, 國家安全教育.
+        \item[4. Nationalistic Loyalty:] 融入國家發展, 融入國家發展大局, 積極融入國家發展大局, 更好融入國家發展大局, 更好融入和服務國家發展大局, 服務國家發展大局, 支持香港更好融入國家發展大局, 積極主動融入國家發展大局, 主動積極融入國家發展大局, 全面融入國家發展大局, 更積極融入國家發展大局, 推動香港更好融入國家發展大局, 背靠祖國、聯通世界, 背靠祖國, 聯通世界, 對接國家戰略, 對接國家發展戰略, 服務國家戰略, 服務國家所需, 國家所需, 貢獻國家所需, 貢獻國家發展, 香港所長, 發揮香港所長, 以香港所長貢獻國家所需, 說好香港故事, 講好香港故事, 說好中國故事, 說好國家故事, 前海, 南沙, 河套, 橫琴, 深化粵港澳合作, 積極對接國家戰略, 主動對接國家戰略, 內聯外通, 內聯外通優勢, 全面準確貫徹一國兩制, 全面準確貫徹一國兩制方針, 一國兩制實踐, 一國兩制事業, 長期堅持一國兩制, 港人治港, 愛國者治港, 愛國者治港原則, 由治及興, 國家安全, 維護國家安全, 總體國家安全觀, 憲法, 基本法, 憲法和基本法, 憲制秩序, 憲制責任, 全面管治權, 完善選舉制度, 愛國主義, 愛國, 愛國愛港, 愛國者, 國家觀念, 國家意識, 國民身分認同, 家國觀念, 正本清源, 撥亂反正, 反中亂港, 外部勢力, 依法治港, 維護國家主權, 維護國家主權、安全、發展利益, 國家主權, 國家主權、安全、發展利益, 安全和發展利益, 國家利益, 國家安全教育日, 全民國家安全教育日, 香港國安法, 國安法, 國安條例, 基本法第二十三條, 二十三條立法.
+        \item[5. Ideological Loyalty:] 中國特色社會主義, 中國特色社會主義制度, 新時代中國特色社會主義, 習近平新時代中國特色社會主義思想, 新時代中國特色社會主義思想, 習近平文化思想, 鄧小平理論, 三個代表重要思想, 科學發展觀, 中國式現代化, 強國建設, 社會主義現代化強國, 現代化強國, 中華民族偉大復興, 民族復興, 中華民族共同體, 中華民族共同體意識, 鑄牢中華民族共同體意識, 中國夢, 家國情懷, 愛國精神, 愛國主義精神, 中華文化, 中華優秀傳統文化, 文化自信, 制度優勢, 制度自信, 道路自信, 理論自信, 馬克思主義, 黨的領導, 黨的全面領導, 兩個確立, 兩個維護, 四個意識, 四個自信, 全過程人民民主, 偉大建黨精神, 自我革命, 底線思維, 憂患意識, 鬥爭精神, 人民至上, 生命至上, 政治站位, 政治判斷力, 政治領悟力, 政治執行力, 合作共贏, 多邊主義, 人類命運共同體, 社會主義核心價值觀.
+        \item[6. Rhetorical Loyalty:] 重要講話, 重要講話精神, 習近平主席重要講話, 國家主席重要講話精神, 重要回信, 重要回信精神, 回信精神, 賀信, 賀信精神, 重要指示精神, 指示精神, 批示精神, 重要指示批示, 大力支持, 全力支持, 明確支持, 充分支持, 在中央的大力支持下, 在中央政府的大力支持下, 中央政府的大力支持, 中央支持, 中央對香港的支持, 中央對香港的關愛, 中央充分肯定, 中央高度重視, 中央高度關注, 高度重視, 高度肯定, 充分肯定, 充分認可, 充分信任, 親切關懷, 親切關心, 親切接見, 親切慰問, 殷殷囑託, 殷切關懷, 殷切期盼, 殷切期望, 巨大鼓舞, 倍感振奮, 深刻指出, 指明方向, 高屋建瓴, 精闢論述, 全面準確貫徹, 貫徹落實, 堅定不移, 貫徹, 落實, 推進, 深化, 完善, 健全, 統籌, 部署, 強化, 優化, 鞏固, 提升, 構建, 對接, 融入, 協同, 扎實, 紮實, 切實, 積極, 主動, 全面, 深入, 高質量, 高水平, 加快, 全力, 持續, 進一步, 着力, 配合, 支撐, 推動, 保障, 開展, 實施, 學習, 學習宣傳貫徹, 深入學習貫徹, 研習, 研討, 宣講, 傳達, 領會精神, 行政主導, 奮發有為, 主動作為, 擔當作為, 先立後破, 以進促穩, 穩中求進, 守正創新, 善作善成, 敢於擔當, 夯實基礎, 紮實推進, 縱深推進, 全面貫徹落實, 堅決貫徹落實, 不折不扣, 走深走實, 以結果為目標, 因地制宜, 提速提效, 提質增效.
+    \end{description}
+
+
+\subsection{Figures}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.95\columnwidth]{figures/speeches_by_category.png}
+        \caption{Density of loyalty-signaling keywords in CE speeches by category.}
+        \label{fig:speech_category_trend}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.95\columnwidth]{figures/press_yearly_trend.png}
+        \caption{Density of loyalty-signaling keywords in press releases by year.}
+        \label{fig:press_yearly_trend}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.95\columnwidth]{figures/press_by_category.png}
+        \caption{Density of loyalty-signaling keywords in press releases by category.}
+        \label{fig:press_category_trend}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.95\columnwidth]{figures/speeches_press_gap.png}
+        \caption{Gap in loyalty signaling between CE speeches and press releases.}
+        \label{fig:loyalty_signaling_gap}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.95\columnwidth]{figures/cosine_similarity_central_ce.png}
+        \caption{Temporal trend of cosine similarity between CE speeches and central leader addresses.}
+        \label{fig:similarity_trend}
+    \end{figure}
+    
+\subsection{Tables}
+
+    % Table 3
+    \begin{table}[ht]
+        \centering
+        \caption{Statistical Summary and Pairwise Comparison of Loyalty Keyword Density in Press Releases}
+        \label{tab:pr_stats}
+        \small
+        \setlength{\tabcolsep}{4pt} % 列间距
+        \begin{tabular}{@{} l r S[table-format=3.2] S[table-format=3.2] S[table-format=1.2] c c c c @{}}
+        \toprule
+        & & \multicolumn{3}{c}{Descriptive Statistics} & \multicolumn{4}{c}{Post-hoc Comparison ($p$-adj)} \\
+        \cmidrule(lr){3-5} \cmidrule(lr){6-9}
+        CE & {$n$} & {Mean} & {Median} & {CV} & {Tung} & {Tsang} & {Leung} & {Lam} \\
+        \midrule
+        Tung & $1338$ & 34.46  & 15.44  & 1.63 & ---  & ---  & ---  & --- \\
+        Tsang  & $1105$ & 17.38  & 0.00   & 2.20 & ***  & ---  & ---  & --- \\
+        Leung      & $1603$ & 31.47  & 0.00   & 1.80 & $.90$ & ***  & ---  & --- \\
+        Lam    & $1878$ & 67.74  & 38.95  & 1.27 & ***  & ***  & ***  & --- \\
+        Lee      & $1070$ & 165.14 & 110.81 & 1.03 & ***  & ***  & ***  & *** \\
+        \bottomrule
+        \addlinespace
+        \multicolumn{9}{l}{\textit{Note.} Overall ANOVA: $F(4, 6989) = 506.68, p < .001$.} \\
+        \multicolumn{9}{l}{*** $p < .001$; ** $p < .01$; * $p < .05$.} \\
+        \end{tabular}
+    \end{table}
+
+    % Table 4
+    \begin{table}[ht]
+        \centering
+        \caption{Statistical Summary and Pairwise Comparison of Cosine Similarity in CE Speeches}
+        \label{tab:ce_sim_stats}
+        \small
+        \setlength{\tabcolsep}{4pt} % 列间距
+        \begin{tabular}{@{} l r S[table-format=1.2] S[table-format=1.2] S[table-format=1.2] c c c c @{}}
+        \toprule
+        & & \multicolumn{3}{c}{Descriptive Statistics} & \multicolumn{4}{c}{Welch's $t$-test $p$-value} \\
+        \cmidrule(lr){3-5} \cmidrule(lr){6-9}
+        CE & {$n$} & {Mean} & {Median} & {Std Dev} & {Tsang} & {Leung} & {Lam} & {Lee} \\
+        \midrule
+        Tsang      & $182$ & 0.08 & 0.03 & 0.10 & ---     & --- & --- & ---   \\
+        Leung      & $448$ & 0.04 & 0.03 & 0.04 & ***     & --- & --- & --- \\
+        Lam        & $646$ & 0.09 & 0.06 & 0.09 & $.35$   & *** & --- & ---\\
+        Lee        & $671$ & 0.06 & 0.04 & 0.06 & $.02$*  & *** & *** & --- \\
+        \bottomrule
+        \addlinespace
+        \multicolumn{9}{@{}l}{\textit{Note.} Significance levels calculated with unequal variances.} \\
+        \multicolumn{9}{@{}l}{*** $p < .001$; ** $p < .01$; * $p < .05$.} \\
+        \end{tabular}
+    \end{table}
+
+%----------------------------------------------------------
+
 \section*{Github Repository}
 \addcontentsline{toc}{section}{Github Repository}
 
@@ -350,13 +484,5 @@
         \end{tabular}
     \end{center}
 
-
-
-
-%----------------------------------------------------------
-
-\printbibliography
-
-%----------------------------------------------------------
 
 \end{document}

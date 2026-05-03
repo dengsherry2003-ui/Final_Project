@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  3 MAY 2026 07:55
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  4 MAY 2026 03:27
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
@@ -2326,44 +2326,150 @@ Package: siunitx 2026-04-15 v3.5.4 A comprehensive (SI) units package
 Package: rho-class/rhoenvs 24/02/2026 Rhoenvs LaTeX2e package
 ) (./rho-class/rhobabel.sty
 Package: rho-class/rhobabel 15/04/2026 Rhobabel LaTeX2e package
+) (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2025-10-09 L3 Experimental prototype document functions
 )
+\l__xeCJK_tmp_int=\count551
+\l__xeCJK_tmp_box=\box107
+\l__xeCJK_tmp_dim=\dimen369
+\l__xeCJK_tmp_skip=\skip189
+\g__xeCJK_space_factor_int=\count552
+\l__xeCJK_begin_int=\count553
+\l__xeCJK_end_int=\count554
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip190
+\c__xeCJK_none_node=\count555
+\g__xeCJK_node_int=\count556
+\c__xeCJK_CJK_node_dim=\dimen370
+\c__xeCJK_CJK-space_node_dim=\dimen371
+\c__xeCJK_default_node_dim=\dimen372
+\c__xeCJK_CJK-widow_node_dim=\dimen373
+\c__xeCJK_normalspace_node_dim=\dimen374
+\c__xeCJK_default-space_node_skip=\skip191
+\l__xeCJK_ccglue_skip=\skip192
+\l__xeCJK_ecglue_skip=\skip193
+\l__xeCJK_punct_kern_skip=\skip194
+\l__xeCJK_indent_box=\box108
+\l__xeCJK_last_penalty_int=\count557
+\l__xeCJK_last_bound_dim=\dimen375
+\l__xeCJK_last_kern_dim=\dimen376
+\l__xeCJK_widow_penalty_int=\count558
+
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen377
+\l__xeCJK_mixed_punct_width_dim=\dimen378
+\l__xeCJK_middle_punct_width_dim=\dimen379
+\l__xeCJK_fixed_margin_width_dim=\dimen380
+\l__xeCJK_mixed_margin_width_dim=\dimen381
+\l__xeCJK_middle_margin_width_dim=\dimen382
+\l__xeCJK_bound_punct_width_dim=\dimen383
+\l__xeCJK_bound_margin_width_dim=\dimen384
+\l__xeCJK_margin_minimum_dim=\dimen385
+\l__xeCJK_kerning_total_width_dim=\dimen386
+\l__xeCJK_same_align_margin_dim=\dimen387
+\l__xeCJK_different_align_margin_dim=\dimen388
+\l__xeCJK_kerning_margin_width_dim=\dimen389
+\l__xeCJK_kerning_margin_minimum_dim=\dimen390
+\l__xeCJK_bound_dim=\dimen391
+\l__xeCJK_reverse_bound_dim=\dimen392
+\l__xeCJK_margin_dim=\dimen393
+\l__xeCJK_minimum_bound_dim=\dimen394
+\l__xeCJK_kerning_margin_dim=\dimen395
+\g__xeCJK_family_int=\count559
+\l__xeCJK_fam_int=\count560
+\g__xeCJK_fam_allocation_int=\count561
+\l__xeCJK_verb_case_int=\count562
+\l__xeCJK_verb_exspace_skip=\skip195
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count563
+\l__xeCJK_listings_flag_int=\count564
+) (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimSun/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimSun/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SimSun(0)' created for font 'SimSun' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./report.aux)
+ (./report.aux
+
+LaTeX Warning: Label `tab:pr_stats' multiply defined.
+
+
+LaTeX Warning: Label `tab:pr_stats@cref' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 123.
-LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 133.
+LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 133.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2.fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 123.
-LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 123.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 133.
+LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 133.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2.fd
 File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2381,11 +2487,10 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `report.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report.bbl' not found.
-
-No file report.bbl.
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
+Package biblatex Info: ... file 'report.bbl' found.
+ (./report.bbl)
+Package biblatex Info: Reference section=0 on input line 133.
+Package biblatex Info: Reference segment=0 on input line 133.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -2393,59 +2498,60 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 123.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 123.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 123.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 123.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 123.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 123.
-LaTeX Font Info:    Redeclaring math accent \check on input line 123.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 123.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 123.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 123.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 133.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 133.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 133.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 133.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 133.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 133.
+LaTeX Font Info:    Redeclaring math accent \check on input line 133.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 133.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 133.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 133.
 LaTeX Font Info:    Encoding `LS1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 123.
+(Font)              `operators' in the math version `normal' on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  LS1/stix2/m/n --> TU/lmr/m/n on input line 123.
+(Font)                  LS1/stix2/m/n --> TU/lmr/m/n on input line 133.
 LaTeX Font Info:    Encoding `LS1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 123.
+(Font)              `operators' in the math version `bold' on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LS1/stix2/b/n --> TU/lmr/m/n on input line 123.
+(Font)                  LS1/stix2/b/n --> TU/lmr/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 123.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  LS1/stix2/m/it --> TU/lmr/m/it on input line 123.
+(Font)                  LS1/stix2/m/it --> TU/lmr/m/it on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  LS1/stix2/b/n --> TU/lmr/b/n on input line 123.
+(Font)                  LS1/stix2/b/n --> TU/lmr/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  LS1/stix2sf/m/n --> TU/FiraSans(0)/m/n on input line 123.
+(Font)                  LS1/stix2sf/m/n --> TU/FiraSans(0)/m/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  LS2/stix2tt/m/n --> TU/FiraMono(0)/m/n on input line 123.
+(Font)                  LS2/stix2tt/m/n --> TU/FiraMono(0)/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 123.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  LS1/stix2/b/it --> TU/lmr/b/it on input line 123.
+(Font)                  LS1/stix2/b/it --> TU/lmr/b/it on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  LS1/stix2sf/b/n --> TU/FiraSans(0)/b/n on input line 123.
+(Font)                  LS1/stix2sf/b/n --> TU/FiraSans(0)/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  LS2/stix2tt/b/n --> TU/FiraMono(0)/b/n on input line 123.
-LaTeX Info: Command `\dddot' is already robust on input line 123.
-LaTeX Info: Command `\ddddot' is already robust on input line 123.
-\c@lstlisting=\count551
+(Font)                  LS2/stix2tt/b/n --> TU/FiraMono(0)/b/n on input line 133.
+LaTeX Info: Command `\dddot' is already robust on input line 133.
+LaTeX Info: Command `\ddddot' is already robust on input line 133.
+\c@lstlisting=\count565
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -2480,17 +2586,17 @@ LaTeX Info: Command `\ddddot' is already robust on input line 123.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 133.
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen369
-\MT@vwid@rightmargin=\dimen370
-LaTeX Info: Redefining \microtypecontext on input line 123.
-Package microtype Info: Applying patch `item' on input line 123.
-Package microtype Info: Applying patch `toc' on input line 123.
-Package microtype Info: Applying patch `eqnum' on input line 123.
-Package microtype Info: Applying patch `footnote' on input line 123.
-Package microtype Info: Applying patch `verbatim' on input line 123.
-LaTeX Info: Redefining \microtypesetup on input line 123.
+\MT@vwid@leftmargin=\dimen396
+\MT@vwid@rightmargin=\dimen397
+LaTeX Info: Redefining \microtypecontext on input line 133.
+Package microtype Info: Applying patch `item' on input line 133.
+Package microtype Info: Applying patch `toc' on input line 133.
+Package microtype Info: Applying patch `eqnum' on input line 133.
+Package microtype Info: Applying patch `footnote' on input line 133.
+Package microtype Info: Applying patch `verbatim' on input line 133.
+LaTeX Info: Redefining \microtypesetup on input line 133.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2499,135 +2605,154 @@ Package microtype Info: No adjustment of kerning.
 (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2026/02/26 v1.2 microtype config. file: Latin Modern Roman (RS)
 )
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimHei/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimHei/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimHei/I" (it probably doesn't
+(fontspec)             exist).
+
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 135.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Package fontspec Info: 
+(fontspec)             Font family 'SimHei(0)' created for font 'SimHei' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 18.0pt on input line 125.
+(Font)              scaled to size 18.0pt on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 125.
+LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2scr.fd
 File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 125.
+LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2ex.fd
 File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 125.
+LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2frak.fd
 File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 125.
+LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2bb.fd
 File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 125.
+LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2cal.fd
 File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 125.
+LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2sf.fd
 File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 125.
+LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 135.
  (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls2stix2tt.fd
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitions
 ) (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 125.
+(Font)              scaled to size 6.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.80002pt on input line 125.
+(Font)              scaled to size 7.80002pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 7.5pt on input line 125.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 125.
+(Font)              scaled to size 7.5pt on input line 135.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 135.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 125.
+(Font)              size <7> substituted on input line 135.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 125.
+(Font)              size <5> substituted on input line 135.
 
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 5.24997pt on input line 125.
+(Font)              scaled to size 5.24997pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 125.
+(Font)              scaled to size 7.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.5pt on input line 125.
+(Font)              scaled to size 8.5pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 8.5pt on input line 125.
+(Font)              scaled to size 8.5pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 7.8pt on input line 125.
+(Font)              scaled to size 7.8pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.8pt on input line 125.
+(Font)              scaled to size 7.8pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 7.8pt on input line 125.
+(Font)              scaled to size 7.8pt on input line 135.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 130.
+(Font)              scaled to size 10.0pt on input line 140.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 130.
+(Font)              scaled to size 10.0pt on input line 140.
 Package lettrine.sty Info: Targeted height = 15.576pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 18.522pt ({\fontsize {27}{24}\color {rhocolor}\bfseries {L}});
-(lettrine.sty)             reported on input line 132.
-! Undefined control sequence.
-\hl ->\ERROR 
-             
-l.134     \hl
-             {insert words here}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(lettrine.sty)             reported on input line 142.
 
-! Undefined control sequence.
-\hl ->\ERROR 
-             
-l.139         \hl
-                 {insert words here}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 5.60002pt on input line 149.
+(Font)              scaled to size 7.20003pt on input line 159.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-! Undefined control sequence.
-\hl ->\ERROR 
-             
-l.163         \hl
-                 {insert words here}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Package fontspec Info: 
+(fontspec)             Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.20003pt on input line 174.
+(Font)              scaled to size 5.60002pt on input line 159.
 Missing character: There is no ^^9d (U+009D) in font [lmroman9-regular]:mapping=tex-text;!
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 194.
+(Font)              scaled to size 8.0pt on input line 204.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 194.
+(Font)              scaled to size 8.0pt on input line 204.
 [1
 
 
@@ -2635,50 +2760,66 @@ LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
 File: figures/speeches_yearly_trend.png Graphic file (type bmp)
 <figures/speeches_yearly_trend.png>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 245.
+(Font)              scaled to size 8.0pt on input line 255.
 File: figures/heatmap_loyalty_sequential.pdf Graphic file (type pdf)
 <use figures/heatmap_loyalty_sequential.pdf>
  [2]
 File: figures/speeches_press_boxplot.png Graphic file (type bmp)
 <figures/speeches_press_boxplot.png>
 
-Overfull \hbox (3.224pt too wide) detected at line 295
+Overfull \hbox (3.224pt too wide) detected at line 305
  \TU/FiraSans(0)/m/n/8 -
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 327.
-(c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
-)
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 349.
-
+Package mdframed Info: mdframed works in twoside mode on input line 337.
 
 LaTeX Warning: Empty bibliography on input line 358.
 
-[3] 
+[3] [4
+
+]
+File: figures/speeches_by_category.png Graphic file (type bmp)
+<figures/speeches_by_category.png>
+File: figures/press_yearly_trend.png Graphic file (type bmp)
+<figures/press_yearly_trend.png>
+File: figures/press_by_category.png Graphic file (type bmp)
+<figures/press_by_category.png>
+ [5]
+File: figures/speeches_press_gap.png Graphic file (type bmp)
+<figures/speeches_press_gap.png>
+File: figures/cosine_similarity_central_ce.png Graphic file (type bmp)
+<figures/cosine_similarity_central_ce.png>
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
+)
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 483.
+ [6] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./report.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
+L3 programming layer <2022/08/05>
  ***********
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54561 strings out of 470015
- 1164664 string characters out of 5473252
- 2051866 words of memory out of 5000000
- 82424 multiletter control sequences out of 15000+600000
- 674945 words of font info for 232 fonts, out of 8000000 for 9000
+ 56183 strings out of 470015
+ 1216101 string characters out of 5473252
+ 2113698 words of memory out of 5000000
+ 83995 multiletter control sequences out of 15000+600000
+ 675607 words of font info for 247 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 137i,12n,143p,1211b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 137i,12n,143p,1004b,1081s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (3 pages).
+Output written on report.pdf (6 pages).

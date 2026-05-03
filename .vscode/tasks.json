@@ -9,6 +9,15 @@
 			"isBackground": false,
 			"problemMatcher": [],
 			"group": "build"
+		},
+		{
+			"label": "Compile LaTeX and Update HTML",
+			"type": "shell",
+			"command": "cd \"Report\\Template\"; xelatex -shell-escape -interaction=nonstopmode report.tex; cp report.pdf \"..\\..\\docs\\report.pdf\"",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
 		}
 	]
 }
