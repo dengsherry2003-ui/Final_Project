@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <!-- 1. 修改了这里的默认链接，直接加上了 report.pdf -->
+    <input id="textInput" type="text" value="https://dengsherry2003-ui.github.io/Final_Project/report.pdf" onblur="generateQR()" style="width: 450px;" />
+    
+    <div id="qrcode" style="margin-top: 20px;"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    
+    <script>
+        // 2. 修改了初始化时生成的链接，同样加上了 report.pdf
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://dengsherry2003-ui.github.io/Final_Project/report.pdf",
+            width: 128,
+            height: 128
+        });
+
+        function generateQR() {
+            var input = document.getElementById("textInput").value;
+            if (input) {
+                qrcode.makeCode(input);
+            }
+        }
+    </script>
+</body>
+</html>

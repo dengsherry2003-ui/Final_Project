@@ -1,9 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  4 MAY 2026 03:27
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  4 MAY 2026 04:52
 entering extended mode
  \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**"g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex"
+(g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (./rho-class/rho.cls
@@ -2730,7 +2731,7 @@ Package fontspec Info:
 (fontspec)             doesn't exist).
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.20003pt on input line 159.
+(Font)              scaled to size 7.20003pt on input line 158.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2747,33 +2748,36 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 5.60002pt on input line 159.
+(Font)              scaled to size 5.60002pt on input line 158.
 Missing character: There is no ^^9d (U+009D) in font [lmroman9-regular]:mapping=tex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 204.
+(Font)              scaled to size 8.0pt on input line 203.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 204.
-[1
+(Font)              scaled to size 8.0pt on input line 203.
+ [1
 
 
 ]
 File: figures/speeches_yearly_trend.png Graphic file (type bmp)
 <figures/speeches_yearly_trend.png>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 255.
+(Font)              scaled to size 8.0pt on input line 257.
 File: figures/heatmap_loyalty_sequential.pdf Graphic file (type pdf)
 <use figures/heatmap_loyalty_sequential.pdf>
  [2]
 File: figures/speeches_press_boxplot.png Graphic file (type bmp)
 <figures/speeches_press_boxplot.png>
 
-Overfull \hbox (3.224pt too wide) detected at line 305
+Overfull \hbox (3.224pt too wide) detected at line 307
  \TU/FiraSans(0)/m/n/8 -
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 337.
+Package mdframed Info: mdframed works in twoside mode on input line 339.
 
-LaTeX Warning: Empty bibliography on input line 358.
+LaTeX Warning: Empty bibliography on input line 360.
 
 [3] [4
 
@@ -2782,44 +2786,5 @@ File: figures/speeches_by_category.png Graphic file (type bmp)
 <figures/speeches_by_category.png>
 File: figures/press_yearly_trend.png Graphic file (type bmp)
 <figures/press_yearly_trend.png>
-File: figures/press_by_category.png Graphic file (type bmp)
-<figures/press_by_category.png>
- [5]
-File: figures/speeches_press_gap.png Graphic file (type bmp)
-<figures/speeches_press_gap.png>
-File: figures/cosine_similarity_central_ce.png Graphic file (type bmp)
-<figures/cosine_similarity_central_ce.png>
- (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
-)
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 6.40002pt on input line 483.
- [6] 
-enddocument/afterlastpage (AED): lastpage setting LastPage.
-(./report.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2022/08/05>
- ***********
 
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.25pt have occurred.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package logreq Info: Writing requests to 'report.run.xml'.
-\openout1 = `report.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 56183 strings out of 470015
- 1216101 string characters out of 5473252
- 2113698 words of memory out of 5000000
- 83995 multiletter control sequences out of 15000+600000
- 675607 words of font info for 247 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 137i,12n,143p,1004b,1081s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on report.pdf (6 pages).
+g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex:411: Undefined control sequence
