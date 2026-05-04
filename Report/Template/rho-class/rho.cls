@@ -60,8 +60,13 @@
 \RequirePackage[
   backend=biber,
   style=authoryear,
-  sorting=nyt
+  sorting=nyt,
+  maxcitenames=2,
+  mincitenames=1,
+  uniquelist=false
 ]{biblatex}
+
+\DeclareDelimFormat{nameyeardelim}{\addcomma\space}
 
 %----------------------------------------------------------
 % Optional-, extra- packages
