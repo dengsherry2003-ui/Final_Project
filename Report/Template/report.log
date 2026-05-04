@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  4 MAY 2026 04:52
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.1)  4 MAY 2026 18:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2429,14 +2429,8 @@ Package fontspec Info:
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./report.aux
 
-LaTeX Warning: Label `tab:pr_stats' multiply defined.
-
-
-LaTeX Warning: Label `tab:pr_stats@cref' multiply defined.
-
-)
+No file report.aux.
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
@@ -2457,7 +2451,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
 LaTeX Font Info:    ... okay on input line 133.
 LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 133.
 LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 133.
- (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2.fd
+(c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/stix2-type1/ls1stix2.fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
 LaTeX Font Info:    ... okay on input line 133.
@@ -2588,6 +2582,9 @@ LaTeX Info: Command `\ddddot' is already robust on input line 133.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 133.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen396
 \MT@vwid@rightmargin=\dimen397
@@ -2713,7 +2710,7 @@ LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 140.
 Package lettrine.sty Info: Targeted height = 15.576pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 18.522pt ({\fontsize {27}{24}\color {rhocolor}\bfseries {L}});
+(lettrine.sty)             Lettrine height = 18.84601pt ({\fontsize {27}{24}\color {rhocolor}\bfseries {S}});
 (lettrine.sty)             reported on input line 142.
 
 Package fontspec Info: 
@@ -2731,7 +2728,7 @@ Package fontspec Info:
 (fontspec)             doesn't exist).
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.20003pt on input line 158.
+(Font)              scaled to size 7.20003pt on input line 164.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2748,38 +2745,57 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 5.60002pt on input line 158.
-Missing character: There is no ^^9d (U+009D) in font [lmroman9-regular]:mapping=tex-text;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              scaled to size 5.60002pt on input line 164.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 203.
+(Font)              scaled to size 8.0pt on input line 193.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 203.
- [1
+(Font)              scaled to size 8.0pt on input line 193.
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 193.
+
+[1
 
 
 ]
+Missing character: There is no ^^9d (U+009D) in font [lmroman9-regular]:mapping=tex-text;!
 File: figures/speeches_yearly_trend.png Graphic file (type bmp)
 <figures/speeches_yearly_trend.png>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 257.
+(Font)              scaled to size 8.0pt on input line 263.
 File: figures/heatmap_loyalty_sequential.pdf Graphic file (type pdf)
 <use figures/heatmap_loyalty_sequential.pdf>
- [2]
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 287.
+
+[2]
 File: figures/speeches_press_boxplot.png Graphic file (type bmp)
 <figures/speeches_press_boxplot.png>
 
-Overfull \hbox (3.224pt too wide) detected at line 307
+Overfull \hbox (3.224pt too wide) detected at line 313
  \TU/FiraSans(0)/m/n/8 -
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 339.
 
-LaTeX Warning: Empty bibliography on input line 360.
+LaTeX Warning: Reference `fig:loyalty_signaling_gap' on page 3 undefined on input line 325.
 
-[3] [4
+
+LaTeX Warning: Reference `fig:similarity_trend' on page 3 undefined on input line 334.
+
+Package mdframed Info: mdframed works in twoside mode on input line 345.
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 3 undefined on input line 348.
+
+
+LaTeX Warning: Empty bibliography on input line 366.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 373.
+
+[3]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 373.
+
+[4
 
 ]
 File: figures/speeches_by_category.png Graphic file (type bmp)
@@ -2787,4 +2803,71 @@ File: figures/speeches_by_category.png Graphic file (type bmp)
 File: figures/press_yearly_trend.png Graphic file (type bmp)
 <figures/press_yearly_trend.png>
 
-g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex:411: Undefined control sequence
+g:/My Drive/Study/HKU/POLI3148 Data Science in Politics and Public Administration/Final Project/Report/Template/report.tex:417: Undefined control sequence.
+l.417         \centeringgi
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/speeches_press_gap.png Graphic file (type bmp)
+<figures/speeches_press_gap.png>
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 422.
+
+[5]
+File: figures/cosine_similarity_central_ce.png Graphic file (type bmp)
+<figures/cosine_similarity_central_ce.png>
+ (c:/Users/MDXR/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
+)
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 491.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 496.
+
+[6
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./report.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.25pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 496.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                report
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'report.run.xml'.
+\openout1 = `report.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 56158 strings out of 470015
+ 1215316 string characters out of 5473252
+ 2111980 words of memory out of 5000000
+ 83972 multiletter control sequences out of 15000+600000
+ 675607 words of font info for 247 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 137i,12n,143p,1117b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on report.pdf (6 pages).
