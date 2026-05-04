@@ -139,20 +139,34 @@
 
 \section{Introduction}
 
-    \rhostart{S}ince the implementation of the Law of the People's Republic of China on Safeguarding National Security in the Hong Kong Special Administrative Region ('NSL') 
-    in 2020 and the subsequent top-down overhaul of Hong Kong's electoral system which produces members of the Legislative Council ('LegCo') and the Chief Executive of the HKSAR 
-    government ('CE') by Beijing, many people have observed a sharp increase of the references to the PRC central authorities, their remarks, their ideology and their policy directions
+    \rhostart{S}ince the implementation of the Law of the People's Republic of China on Safeguarding National Security in the Hong Kong Special Administrative Region (`NSL') 
+    in 2020 and the subsequent top-down overhaul of Hong Kong's electoral system which produces members of the Legislative Council (`LegCo') and the Chief Executive of the HKSAR 
+    government (`CE') by Beijing, many people have observed a sharp increase of the references to the PRC central authorities, their remarks, their ideology and their policy directions
      in the SAR government's public discourse. This phenomenon appears to be increasingly pronounced after the incumbent CE, John Lee, took office in mid-2022. John Lee is viewed 
-     by many as proactively engaging the SAR government in a process of ``Mainlandization'' for the purpose of signaling loyalty to the Central People's Government ('CPG') (Chan, 2023), 
+     by many as proactively engaging the SAR government in a process of ``Mainlandization'' for the purpose of signaling loyalty to the Central People's Government (`CPG') \parencite{chan2023ccp}, 
      as opposed to his predecessors, who did not adopt such a ``sycophantic'' gesture in signaling loyalty to Beijing. Focusing on the discursive aspect of the CE's 
     loyalty-signaling behaviour, our research aims to explore the extent to which the CEs' public addresses resonate with the language of the CPG and then explore the underlying 
     logic behind their loyalty-signaling behaviours.
+
+    This paper will firstly lay out the general theoretical framework on loyalty signaling by lower-level officials to the central authority and the important role of language 
+    and discourse amid the loyalty-signaling process by reviewing the existing literature. On this basis, we will conceptualize the phenomenon of ``loyalty signaling through 
+    language'' in the political context of Hong Kong, according to which six types of keywords used to communicate loyalty will be proposed (`\textit{Loyalty Signaling Keywords}'). 
+    We will then quantify the extent to which different CEs signaled loyalty through discourse by measuring the density of loyalty keywords in CEs' speeches and the CE office's 
+    press releases, with the semantic similarities between the public addresses of CEs and central leaders as a further reference that enriches our analysis.
 	
     
-    \subsection{Literature Review}
+\section{General theoretical framework of Loyalty Signaling}
 
-        {insert words here}
+    \textcite{qian2024loyalty} give three fundamental propositions regarding lower-level government officials' loyalty signaling behaviours towards the central authority in an 
+    authoritarian regime: i) officials with a less-trusted background has a greater incentive to signal their loyalty to the authoritarian leader; ii) credible loyalty signaling 
+    becomes particularly significant for an official if his/her career prospect and political survival is largely determined by the ruler's favor, which is often the case in an 
+    authoritarian regime; iii) one of the most effective way for a less-trusted official to express his/her loyalty is to engage in ``unpopular and costly'' tasks on the ruler's 
+    behalf and for the ruler's benefit. Whilst \textcite{qian2024loyalty} focus more on how local bureaucrats used political persecution to express loyalty amid the Anti-Rightist 
+    Campaign in the early years of the PRC, \textcite{baturo2025personalization} highlight the local officials' politicized framing of their public discourse as a means of loyalty signaling 
+    in an authoritarian regime. They find that the state governors in Russia signaled their loyalty to Putin by making more references to him and his political agenda in the 
+    addresses to their regional legislatures (\parencite{baturo2025personalization}). 
 
+    
 \section{Methodology}
 
     \subsection{Data Collection}
@@ -207,7 +221,7 @@
         CE speeches and Hong Kong-related discourse from Mainland Chinese leaders are parsed using regular expressions to extract publication dates and categorized into annual corpora. 
         The raw text undergoes rigorous cleaning, including the removal of non-Chinese characters and HTML tags. The \inlinecode{jieba} library is used for precise Chinese semantic segmentation.
 
-        To isolate ``loyalty signaling'' from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
+        To isolate ``loyalty signaling' from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
         transform unstructured text into high-dimensional numerical vectors. The model utilizes a \inlinecode{max_df} of 0.85 and a \inlinecode{min_df} of 2 to remove extremely common or statistically insignificant tokens.
 
         The degree of discursive convergence is quantified using Cosine Similarity.
@@ -414,7 +428,7 @@
     %\end{figure}
 
     \begin{figure}[H]
-        \centeringgi
+        \centering
         \includegraphics[width=0.95\columnwidth]{figures/speeches_press_gap.png}
         \caption{Gap in loyalty signaling between CE speeches and press releases.}
         \label{fig:loyalty_signaling_gap}

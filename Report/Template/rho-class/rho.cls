@@ -59,9 +59,8 @@
 
 \RequirePackage[
   backend=biber,
-  style=numeric,
-  sorting=ynt,
-  citestyle=numeric-comp
+  style=authoryear,
+  sorting=nyt
 ]{biblatex}
 
 %----------------------------------------------------------
