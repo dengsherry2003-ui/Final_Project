@@ -16,5 +16,607 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{baturo2025personalization}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70c1ec991aa14a790bc80151caff3e6c}{%
+           family={Baturo},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a11f162e39815b3c6c51441f048e044}{%
+           family={Khokhlov},
+           familyi={K\bibinitperiod},
+           given={Nikita},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{fullhash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{fullhashraw}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{bibnamehash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{authorbibnamehash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{authornamehash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{authorfullhash}{ef044e3281de4a484ed4f34612f727d8}
+      \strng{authorfullhashraw}{ef044e3281de4a484ed4f34612f727d8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Politics \& Policy}
+      \field{number}{4}
+      \field{title}{Personalization and Elite Rhetoric: How the Autocrat's Popularity and Political Repression Influence Policy Speech of Regime Officials}
+      \field{volume}{53}
+      \field{year}{2025}
+      \field{pages}{e70058}
+      \range{pages}{-1}
+    \endentry
+    \entry{baturo2025playing}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=70c1ec991aa14a790bc80151caff3e6c}{%
+           family={Baturo},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a11f162e39815b3c6c51441f048e044}{%
+           family={Khokhlov},
+           familyi={K\bibinitperiod},
+           given={Nikita},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74546d164644f7dd3a0f98e73d52a9e5}{%
+           family={Tolstrup},
+           familyi={T\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb47144cfa7efe543dfb6a6d39a9790c}
+      \strng{fullhash}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \strng{fullhashraw}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \strng{bibnamehash}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \strng{authorbibnamehash}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \strng{authornamehash}{fb47144cfa7efe543dfb6a6d39a9790c}
+      \strng{authorfullhash}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \strng{authorfullhashraw}{cc7892c73bafd9f99a9ec315ae2fbdee}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{number}{3}
+      \field{title}{Playing the sycophant card: The logic and consequences of professing loyalty to the autocrat}
+      \field{volume}{69}
+      \field{year}{2025}
+      \field{pages}{1180\bibrangedash 1195}
+      \range{pages}{16}
+    \endentry
+    \entry{chan2023ccp}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e779ff682c7701340fe2dd36b589f3e}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {China Media Project}%
+      }
+      \strng{namehash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{fullhash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{fullhashraw}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{bibnamehash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{authorbibnamehash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{authornamehash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{authorfullhash}{5e779ff682c7701340fe2dd36b589f3e}
+      \strng{authorfullhashraw}{5e779ff682c7701340fe2dd36b589f3e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{In {Hong Kong}, learning to speak like the {CCP}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://chinamediaproject.org/2023/04/06/in-hong-kong-learning-to-speak-like-the-ccp/
+      \endverb
+      \verb{url}
+      \verb https://chinamediaproject.org/2023/04/06/in-hong-kong-learning-to-speak-like-the-ccp/
+      \endverb
+    \endentry
+    \entry{chen2017law}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17347209339353bdf6847997c8a1b451}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Albert\bibnamedelimb H.\bibnamedelimi Y.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{17347209339353bdf6847997c8a1b451}
+      \strng{fullhash}{17347209339353bdf6847997c8a1b451}
+      \strng{fullhashraw}{17347209339353bdf6847997c8a1b451}
+      \strng{bibnamehash}{17347209339353bdf6847997c8a1b451}
+      \strng{authorbibnamehash}{17347209339353bdf6847997c8a1b451}
+      \strng{authornamehash}{17347209339353bdf6847997c8a1b451}
+      \strng{authorfullhash}{17347209339353bdf6847997c8a1b451}
+      \strng{authorfullhashraw}{17347209339353bdf6847997c8a1b451}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Law and politics of the Taiwan sunflower and {Hong Kong} umbrella movements}
+      \field{title}{The law and politics of constitutional reform and democratization in {Hong Kong}}
+      \field{year}{2017}
+      \field{pages}{65\bibrangedash 82}
+      \range{pages}{18}
+    \endentry
+    \entry{deng2025legitimation}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cbaf4f8829c5ef01cf9659d1d6975526}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b07e08d389bfad6c22931b7cb072ed36}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{fullhash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{fullhashraw}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{bibnamehash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{authorbibnamehash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{authornamehash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{authorfullhash}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \strng{authorfullhashraw}{c7ddba33443c1c1eb05b1b6cd8ab342e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Critical Asian Studies}
+      \field{number}{2}
+      \field{title}{Legitimation or Hegemony? The {Chinese} Government's Changing Discursive Approach to {Hong Kong}}
+      \field{volume}{57}
+      \field{year}{2025}
+      \field{pages}{291\bibrangedash 312}
+      \range{pages}{22}
+    \endentry
+    \entry{dimaggio1983iron}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d33343bf20da667facd36f19c342c2e5}{%
+           family={DiMaggio},
+           familyi={D\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2b18003bb9d3091c219abeff45f13cb}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Walter\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab903492c56f1fe0f27175414111356b}
+      \strng{fullhash}{ab903492c56f1fe0f27175414111356b}
+      \strng{fullhashraw}{ab903492c56f1fe0f27175414111356b}
+      \strng{bibnamehash}{ab903492c56f1fe0f27175414111356b}
+      \strng{authorbibnamehash}{ab903492c56f1fe0f27175414111356b}
+      \strng{authornamehash}{ab903492c56f1fe0f27175414111356b}
+      \strng{authorfullhash}{ab903492c56f1fe0f27175414111356b}
+      \strng{authorfullhashraw}{ab903492c56f1fe0f27175414111356b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Sociological Review}
+      \field{number}{2}
+      \field{title}{The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields}
+      \field{volume}{48}
+      \field{year}{1983}
+      \field{pages}{147\bibrangedash 160}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2307/2095101
+      \endverb
+    \endentry
+    \entry{govhk2025fire}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9d3a1fcb48af21b817cc7f07770c14a}{%
+           family={{Government of the Hong Kong Special Administrative Region}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{fullhash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{fullhashraw}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{bibnamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorbibnamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authornamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorfullhash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorfullhashraw}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Press release}
+      \field{title}{Chief Executive’s remarks to the media after visiting the injured and affected residents of the Tai Po No. 5 alarm fire (Chinese only) (with photos/videos)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.info.gov.hk/gia/general/202511/27/P2025112700082.htm
+      \endverb
+      \verb{url}
+      \verb https://www.info.gov.hk/gia/general/202511/27/P2025112700082.htm
+      \endverb
+    \endentry
+    \entry{govhk2026speech}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9d3a1fcb48af21b817cc7f07770c14a}{%
+           family={{Government of the Hong Kong Special Administrative Region}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{fullhash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{fullhashraw}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{bibnamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorbibnamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authornamehash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorfullhash}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \strng{authorfullhashraw}{e9d3a1fcb48af21b817cc7f07770c14a}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Chief Executive delivers a speech (in Chinese only) at the book launch and publication symposium of the traditional Chinese version of Volume 1 of "{Xi Jinping's} Selected Economic Writings" and Volumes 1 and 2 of "{Xi Jinping} and Tertiary Youth" (with photos/video)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.info.gov.hk/gia/general/202603/18/P2026031800528.htm
+      \endverb
+      \verb{url}
+      \verb https://www.info.gov.hk/gia/general/202603/18/P2026031800528.htm
+      \endverb
+    \endentry
+    \entry{huang2015propaganda}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2303f1c1339331afd73230d4fe6f751e}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Haifeng},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{fullhash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{fullhashraw}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{bibnamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authorbibnamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authornamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authorfullhash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authorfullhashraw}{2303f1c1339331afd73230d4fe6f751e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comparative Politics}
+      \field{number}{4}
+      \field{title}{Propaganda as Signaling}
+      \field{volume}{47}
+      \field{year}{2015}
+      \field{pages}{419\bibrangedash 437}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/43664158
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/43664158
+      \endverb
+    \endentry
+    \entry{hung2020unrest}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a902dc62e65a2d45a62699c3af46e352}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={Ho-fung},
+           giveni={H\bibinithyphendelim f\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{fullhash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{fullhashraw}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{bibnamehash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{authorbibnamehash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{authornamehash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{authorfullhash}{a902dc62e65a2d45a62699c3af46e352}
+      \strng{authorfullhashraw}{a902dc62e65a2d45a62699c3af46e352}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAIS Review of International Affairs}
+      \field{number}{2}
+      \field{title}{The unrest of 2019, the national security law, and the future of {Hong Kong}: A comparative-international perspective}
+      \field{volume}{40}
+      \field{year}{2020}
+      \field{pages}{25\bibrangedash 41}
+      \range{pages}{17}
+    \endentry
+    \entry{kwan2023introduction}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f513c6af645b9e9c57b3e60f11885427}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi C.\bibnamedelimi Y.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Edward Elgar Publishing}%
+      }
+      \strng{namehash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{fullhash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{fullhashraw}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{bibnamehash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{authorbibnamehash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{authornamehash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{authorfullhash}{f513c6af645b9e9c57b3e60f11885427}
+      \strng{authorfullhashraw}{f513c6af645b9e9c57b3e60f11885427}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{A Research Agenda for East Asian Social Policy}
+      \field{title}{The introduction of the ``mainland frame'' in public policy: a case study on framing and political rhetoric in {Hong Kong's} climate policy}
+      \field{year}{2023}
+      \field{pages}{85\bibrangedash 101}
+      \range{pages}{17}
+    \endentry
+    \entry{kwong2025electoral}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aab5d9e4d85ec613955aa869c9cc4db6}{%
+           family={Kwong},
+           familyi={K\bibinitperiod},
+           given={Ying-ho},
+           giveni={Y\bibinithyphendelim h\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{fullhash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{fullhashraw}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{bibnamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authorbibnamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authornamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authorfullhash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authorfullhashraw}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Problems of Post-Communism}
+      \field{number}{6}
+      \field{title}{Electoral overhaul under the principle of ``patriots governing {Hong Kong}'': Implications for pro-{China} governing coalition re-building}
+      \field{volume}{72}
+      \field{year}{2025}
+      \field{pages}{583\bibrangedash 596}
+      \range{pages}{14}
+    \endentry
+    \entry{li2022chinese}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=645db259967b127413652d28840b525f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hanwen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {BBC News}%
+      }
+      \strng{namehash}{645db259967b127413652d28840b525f}
+      \strng{fullhash}{645db259967b127413652d28840b525f}
+      \strng{fullhashraw}{645db259967b127413652d28840b525f}
+      \strng{bibnamehash}{645db259967b127413652d28840b525f}
+      \strng{authorbibnamehash}{645db259967b127413652d28840b525f}
+      \strng{authornamehash}{645db259967b127413652d28840b525f}
+      \strng{authorfullhash}{645db259967b127413652d28840b525f}
+      \strng{authorfullhashraw}{645db259967b127413652d28840b525f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Chinese officialese enters {Hong Kong} language, further evidence of {Beijing's} political influence]}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.bbc.com/zhongwen/trad/chinese-news-60672295
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/zhongwen/trad/chinese-news-60672295
+      \endverb
+    \endentry
+    \entry{ng2020recontextualisation}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97a3af6598b3873958c406c2f9f520d1}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={W.\bibnamedelimi T.},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{fullhash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{fullhashraw}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{bibnamehash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{authorbibnamehash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{authornamehash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{authorfullhash}{97a3af6598b3873958c406c2f9f520d1}
+      \strng{authorfullhashraw}{97a3af6598b3873958c406c2f9f520d1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discourse \& Society}
+      \field{number}{5}
+      \field{title}{Recontextualisation of {Beijing's} voice: A critical discourse analysis of hegemony and resistance in {Hong Kong} political discourse}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{540\bibrangedash 561}
+      \range{pages}{22}
+    \endentry
+    \entry{peck2024hongkong}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6f1a229f03b55e78457da9aa3e9be2fa}{%
+           family={Peck},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8931d3fe02e643be589baf8836ff461}{%
+           family={Meulbroek},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e553eb4ac8e7ba949de58f14054e9bc}{%
+           family={Anguelov},
+           familyi={A\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ccb1470651a0525acdf37ab0c8c5fce}
+      \strng{fullhash}{9213b8aebc516ad0afa39af5d9f507cf}
+      \strng{fullhashraw}{9213b8aebc516ad0afa39af5d9f507cf}
+      \strng{bibnamehash}{9213b8aebc516ad0afa39af5d9f507cf}
+      \strng{authorbibnamehash}{9213b8aebc516ad0afa39af5d9f507cf}
+      \strng{authornamehash}{1ccb1470651a0525acdf37ab0c8c5fce}
+      \strng{authorfullhash}{9213b8aebc516ad0afa39af5d9f507cf}
+      \strng{authorfullhashraw}{9213b8aebc516ad0afa39af5d9f507cf}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environment and Planning C: Politics and Space}
+      \field{number}{6}
+      \field{title}{{Hong Kong’s} new normal: Remaking authorized discourses of ``special administration,'' 2017--2022}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{pages}{1082\bibrangedash 1102}
+      \range{pages}{21}
+    \endentry
+    \entry{qian2024loyalty}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=87ba7558a4d1835a08bcb098c1ddf48f}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Jingyuan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75930c3bd4f6b489be1d0be7a11c136d}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{fullhash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{fullhashraw}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{bibnamehash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{authorbibnamehash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{authornamehash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{authorfullhash}{f42bc795ec5a4427bd33abf573b8b198}
+      \strng{authorfullhashraw}{f42bc795ec5a4427bd33abf573b8b198}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comparative Politics}
+      \field{number}{4}
+      \field{title}{Loyalty signaling, bureaucratic compliance, and variation in state repression in authoritarian regimes}
+      \field{volume}{56}
+      \field{year}{2024}
+      \field{pages}{423\bibrangedash 447}
+      \range{pages}{25}
+    \endentry
+    \entry{so2011onecountry}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3614ff4ae141e125697d01243bda1a3a}{%
+           family={So},
+           familyi={S\bibinitperiod},
+           given={Alvin\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{fullhash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{fullhashraw}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{bibnamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authorbibnamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authornamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authorfullhash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authorfullhashraw}{3614ff4ae141e125697d01243bda1a3a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Contemporary Asia}
+      \field{number}{1}
+      \field{title}{``{One} country, two systems'' and {Hong Kong-China} national integration: A crisis-transformation perspective}
+      \field{volume}{41}
+      \field{year}{2011}
+      \field{pages}{99\bibrangedash 116}
+      \range{pages}{18}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
