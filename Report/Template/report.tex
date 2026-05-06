@@ -335,10 +335,10 @@
         The CEs' speeches and Hong Kong-related discourse from the central leaders are parsed using regular expressions to extract publication dates and categorized into annual corpora. 
         The raw text undergoes rigorous cleaning, including the removal of non-Chinese characters and HTML tags. The \inlinecode{jieba} library is used for precise Chinese semantic segmentation.
 
-        To isolate ``loyalty signaling' from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
+        To isolate ``loyalty signaling'' from routine administrative language, loyalty keyword boosting and customized stop-word filter are implemented. The TF-IDF algorithm is implemented to 
         transform unstructured text into high-dimensional numerical vectors. The model utilizes a \inlinecode{max_df} of 0.85 and a \inlinecode{min_df} of 2 to remove extremely common or statistically insignificant tokens.
 
-        The degree of discursive convergence is quantified using Cosine Similarity.
+        The degree of discursive convergence is quantified using Cosine Similarity Formula.
         \begin{equation}
             \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
         \end{equation}
