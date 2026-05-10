@@ -10,6 +10,12 @@
     </style>
 </head>
 <body>
-    <iframe src="report.pdf?v=20260504_2" title="Report PDF"></iframe>
+    <!-- Use Google Docs Viewer for better mobile compatibility, with a fallback link -->
+    <iframe src="https://docs.google.com/viewer?url=https://dengsherry2003-ui.github.io/Final_Project/report.pdf&embedded=true" title="Report PDF"></iframe>
+    
+    <!-- Fallback if iframe fails -->
+    <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(255,255,255,0.8); padding: 5px 10px; border-radius: 5px;">
+        <a href="report.pdf" target="_blank" style="font-family: sans-serif; text-decoration: none; color: #333;">Click here if the PDF doesn't display</a>
+    </div>
 </body>
 </html>

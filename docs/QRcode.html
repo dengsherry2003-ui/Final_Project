@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>QR Code Generator</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 50px; }
+        
+        #textInput {
+            width: 450px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        /* 关键：为二维码容器添加白色内边距和阴影，方便识别 */
+        #qrcode {
+            padding: 15px;
+            background: white;
+            border: 1px solid #eee;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-    <!-- 1. 修改了这里的默认链接，直接加上了 report.pdf -->
-    <input id="textInput" type="text" value="https://dengsherry2003-ui.github.io/Final_Project/report.pdf" onblur="generateQR()" style="width: 450px;" />
+
+    <input id="textInput" type="text" value="https://dengsherry2003-ui.github.io/Final_Project/" onblur="generateQR()" />
     
-    <div id="qrcode" style="margin-top: 20px;"></div>
+    <div id="qrcode"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     
     <script>
-        // 2. 修改了初始化时生成的链接，同样加上了 report.pdf
+        // 增加尺寸到 256px，并设置较高的纠错等级
         var qrcode = new QRCode(document.getElementById("qrcode"), {
-            text: "https://dengsherry2003-ui.github.io/Final_Project/report.pdf",
-            width: 128,
-            height: 128
+            text: "https://dengsherry2003-ui.github.io/Final_Project/",
+            width: 256,
+            height: 256,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H // 设置为最高纠错等级
         });
 
         function generateQR() {
             var input = document.getElementById("textInput").value;
             if (input) {
+                qrcode.clear(); // 清除之前的二维码
                 qrcode.makeCode(input);
             }
         }
