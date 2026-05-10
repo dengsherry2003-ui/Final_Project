@@ -1,20 +1,20 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'report.blg'
-[135] biber-MSWIN64:342> INFO - === 
-[249] Biber.pm:421> INFO - Reading 'report.bcf'
-[449] Biber.pm:1002> INFO - Found 17 citekeys in bib section 0
-[470] Biber.pm:4487> INFO - Processing section 0
-[483] Biber.pm:4678> INFO - Looking for bibtex file 'rho.bib' for section 0
-[601] bibtex.pm:1713> INFO - LaTeX decoding ...
-[629] bibtex.pm:1519> INFO - Found BibTeX data source 'rho.bib'
-[744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[745] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[745] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[745] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[772] bbl.pm:676> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[789] bbl.pm:779> INFO - Output to report.bbl
-[790] Biber.pm:132> WARN - legacy month field 'apr' in entry 'chan2023ccp' is not an integer - this will probably not sort properly.
-[790] Biber.pm:132> WARN - legacy month field 'mar' in entry 'li2022chinese' is not an integer - this will probably not sort properly.
-[791] Biber.pm:132> WARN - legacy month field 'nov' in entry 'govhk2025fire' is not an integer - this will probably not sort properly.
-[791] Biber.pm:132> WARN - legacy month field 'mar' in entry 'govhk2026speech' is not an integer - this will probably not sort properly.
-[791] Biber.pm:134> INFO - WARNINGS: 4
+[144] biber-MSWIN64:342> INFO - === 
+[268] Biber.pm:421> INFO - Reading 'report.bcf'
+[501] Biber.pm:1002> INFO - Found 17 citekeys in bib section 0
+[548] Biber.pm:4487> INFO - Processing section 0
+[563] Biber.pm:4678> INFO - Looking for bibtex file 'rho.bib' for section 0
+[701] bibtex.pm:1713> INFO - LaTeX decoding ...
+[731] bibtex.pm:1519> INFO - Found BibTeX data source 'rho.bib'
+[888] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[888] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[888] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[889] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[932] bbl.pm:676> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[958] bbl.pm:779> INFO - Output to report.bbl
+[959] Biber.pm:132> WARN - legacy month field 'apr' in entry 'chan2023ccp' is not an integer - this will probably not sort properly.
+[959] Biber.pm:132> WARN - legacy month field 'mar' in entry 'li2022chinese' is not an integer - this will probably not sort properly.
+[960] Biber.pm:132> WARN - legacy month field 'nov' in entry 'govhk2025fire' is not an integer - this will probably not sort properly.
+[960] Biber.pm:132> WARN - legacy month field 'mar' in entry 'govhk2026speech' is not an integer - this will probably not sort properly.
+[960] Biber.pm:134> INFO - WARNINGS: 4

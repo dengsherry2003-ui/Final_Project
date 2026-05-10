@@ -71,6 +71,7 @@ You can explore our interactive artifacts and report online:
 
 - **GitHub repository**: [https://github.com/dengsherry2003-ui/Final_Project/tree/main#](https://github.com/dengsherry2003-ui/Final_Project/tree/main#)
 - **Live webpage report**: [https://dengsherry2003-ui.github.io/Final_Project/](https://dengsherry2003-ui.github.io/Final_Project/)
+- **Poster**: `Report/Poster/Poster.pdf/`
 
 If you seek to run or compile the LaTeX project locally, utilize the pre-configured VS Code tasks:
 
